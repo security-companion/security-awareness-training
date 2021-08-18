@@ -1,0 +1,1 @@
+npx @marp-team/marp-cli@latest -w security-awareness-training.md
