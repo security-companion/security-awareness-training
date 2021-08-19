@@ -41,7 +41,10 @@ Version 1.0
 
 - Adressen von externen oder internen Kontakten
 - Kontoverbindungen
-- Benutzernamen/Paßwörtern
+- Benutzernamen/Paßwörter
+- Finanzberichte
+- in der Organiation verwendete Hardware
+- etc.
 
 ---
 
@@ -57,3 +60,28 @@ Version 1.0
 
 # Sicherheit im Internet
 
+- Browser immer aktuell halten um gegen neue Angriffe möglichst geschützt zu sein
+- Vor Anklicken einen Links aus E-Mail, Chat-App etc. immer prüfen
+  - Habe ich diesen Link erwartet?
+  - Ist mir die URL(=Linkadresse) bekannt?
+  - Ist in der URL wirklich kein Buchstabe geändert? https://amazon.com und https://amaz0n.de sind komplett verschieden
+
+---
+
+- Vor dem Anklicken eines Links auf diesen mit der Maus zeigen und in der Statusleiste dessen Korrektheit überprüfen
+- Gekürzte Links mit Diensten wie https://urlex.org/ oder https://unshorten.me/ überprüfen (den ganzen Link anzeigen lassen)
+- Beim Besuch von unbekannten Seiten diese kritisch hinterfragen und im Zweifelsfall den Besuch abbrechen
+  - Ist das Design verschoben oder fehlt es gänzlich
+- Seiten können mit https://virustotal.com auf Viren überprüft werden
+
+---
+
+- Auf das Schloß in der Browserleiste achten
+  - Achtung! Das Schloß bedeutet nur, dass die Verbindung zwischen Browser und Client verschlüsselt ist.
+  - Ein Schloß bedeutet nicht automatisch, dass die Seite sicher ist bzw. nicht von einem Angreifer betrieben wird.
+
+---
+
+# Allgemein
+
+- Immer Betriebssystem und verwendete Software aktuell halten
