@@ -5,6 +5,8 @@ It is based on the marp framework and is publicly available and can be shared wi
 
 You can find the current version of the traning on the [Security Companion homepage](https://security-companion.net/awareness-traning/)
 
+Currently it is only available in German.
+
 ## Install:
 
 npm install --save-dev @marp-team/marp-cli
