@@ -29,6 +29,15 @@ Version 1.0
 
 ---
 
+# Über dieses Training
+
+- Training erstellt von [Security Companion](https://security-companion.net/)
+- Veröffentlicht unter Open Source Lizenz (Creative Commons Zero v1.0 Universal)
+  -> Training steht zur freien Verfügung
+  -> Verwendung, Weiterverbreitung und Änderungen sind erlaubt
+
+---
+
 # Motivation
 
 - Alle technischen Absicherungen sind nutzlos wenn die Personen, die diese bedienen diese bewusst oder unbewusst umgehen
@@ -37,7 +46,7 @@ Version 1.0
 
 ---
 
-# schützenswerte Daten
+# Schützenswerte Daten
 
 - Adressen von externen oder internen Kontakten
 - Kontoverbindungen
@@ -82,6 +91,39 @@ Version 1.0
 
 ---
 
+# Passwörter
+
+- Mindestens 8 Zeichen mit Kombination aus Groß-, Kleinbuchstaben, Ziffern und Sonderzeichen verwenden
+- Kein Passwort wiederverwenden
+- Mithilfe von [haveibeenpwned](https://haveibeenpwned.com/) prüfen ob eigene E-Mail Adresse/Passwort-Kombination Teil eines Datenlecks war
+
+---
+
+# 2-Faktor Authentifizierung
+
+- Logins zusätzlich zur Benutzernamen/Paswort Kombination mit einem weiteren zweiten Faktor absichern
+  - Beispiel zeitlich ablaufende Ziffernfolge auf dem Handy (Token)
+  - Nur mit diesem ist ein Login möglich, schützt effektiv vor Missbrauch des Zugangs
+- Wo möglich immer aktivieren!
+- Eventuell QR-Code/Einrichtcode im Passwortmanager hinterlegen um bei Verlust des Handys nicht aus Diensten ausgesperrt zu werden
+
+---
+
+# Backups
+
+- Regelmäßig Backups von wichtigen Daten erstellen, beispielsweise über NAS oder USB-Stick
+- Mehrere Versionsstände vorhalten, z.B. nach Schema Großvater, Vater, Kind
+- Nur Backups, die nicht mit einem Computer oder Netzwerk verbunden sind (Offline-Backps) schützen vor Verschlüsselung durch Trojaner o.ä.
+- Regelmäßig Wiederherstellen der Daten üben um für den Ernstfall vorbereitet zu sein
+
+---
+
 # Allgemein
 
 - Immer Betriebssystem und verwendete Software aktuell halten
+
+---
+
+# Weiterführende Informationen
+
+- [BSI Leitfaden für Politiker](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Broschueren/Leitfaden-Kandidierende.pdf?__blob=publicationFile&v=7) - nicht nur für Politiker relevant

@@ -7,5 +7,5 @@ call npx @marp-team/marp-cli@latest security-awareness-training.md --pdf
 REM  Convert slide deck into PowerPoint document (PPTX)
 call npx @marp-team/marp-cli@latest security-awareness-training.md --pptx
 
-REM  Generate teaser image
-call npx @marp-team/marp-cli@latest security-awareness-training.md --image jpeg -o training-teaser.jpg
+REM  Generate firstslide image
+call npx @marp-team/marp-cli@latest security-awareness-training.md --image jpeg -o training-firstslide.jpg
