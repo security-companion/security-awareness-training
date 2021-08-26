@@ -26,20 +26,13 @@ Version 1.0
 - Passwörter
 - 2-Faktor Authentifizierung
 - Backups
-
----
-
-# Über dieses Training
-
-- Training erstellt von [Security Companion](https://security-companion.net/)
-- Veröffentlicht unter Open Source Lizenz (Creative Commons Zero v1.0 Universal)
-  -> Training steht zur freien Verfügung
-  -> Verwendung, Weiterverbreitung und Änderungen sind erlaubt
+- Weiterführende Informationen
 
 ---
 
 # Motivation
 
+- Hackerangriffe auf Firmen, Organisationen sind in letzter Zeit stark angestiegen
 - Alle technischen Absicherungen sind nutzlos wenn die Personen, die diese bedienen diese bewusst oder unbewusst umgehen
 - Mitarbeiter einer Organisation sind oft das schwächste Glied in der Kette.
 - Diese Presentation soll dazu dienen, Mitarbeiter für die Zukunft zu rüsten und für die Themen der Cyber Security zu sensibilisieren.
@@ -59,7 +52,7 @@ Version 1.0
 
 # Social Engineering
 
-- Methoden, die Angreifer nutzen um Mitarbeitern sensible Informationen zu entlocken, oft unter Einsatz von Druck
+- Methoden, die Angreifer nutzen um Mitarbeitern sensible Informationen zu entlocken, oft unter Einsatz von Druck und dem Versuch, Mitleid zu erregen
 - Beispiele:
   - wenn nicht sofort die vom vermeintlichen Chef angeordnete Überweisung erfolgt drohen hohe Mahungskosten
   - Angreifer gibt sich als neuer Kollege aus und bittet um Mithilfe in Form der telefonischen Übermittlung von Paßwörtern
@@ -69,7 +62,8 @@ Version 1.0
 
 # Sicherheit im Internet
 
-- Browser immer aktuell halten um gegen neue Angriffe möglichst geschützt zu sein
+- Browser und E-Mail Clients sind direkt dem Internet ausgesetzt
+  -> immer aktuell halten um gegen neue Angriffe möglichst geschützt zu sein
 - Vor Anklicken einen Links aus E-Mail, Chat-App etc. immer prüfen
   - Habe ich diesen Link erwartet?
   - Ist mir die URL(=Linkadresse) bekannt?
@@ -93,16 +87,53 @@ Version 1.0
 
 # Passwörter
 
-- Mindestens 8 Zeichen mit Kombination aus Groß-, Kleinbuchstaben, Ziffern und Sonderzeichen verwenden
+- Angreifer haben [lange Passwortlisten](https://github.com/danielmiessler/SecLists/tree/master/Passwords/Common-Credentials) mit Millionen von Passwörtern zur Verfügung. Diese probieren sie auf Login-Seiten aus bis sie Erfolg haben
+- Beispiele für schlechte Passwörter:
+  - P@ssw0rd
+  - Sommer2021
+  - Geheim1
+  - abc123
+
+---
+
+- Mindestens 12 Zeichen mit Kombination aus Groß-, Kleinbuchstaben, Ziffern und Sonderzeichen verwenden
+- Je länger ein Passwort desto schwieriger ist es dies zu knacken
 - Kein Passwort wiederverwenden
-- Mithilfe von [haveibeenpwned](https://haveibeenpwned.com/) prüfen ob eigene E-Mail Adresse/Passwort-Kombination Teil eines Datenlecks war
+
+---
+
+- Möglichst folgendes in den Passwörtern vermeiden da Angreifer diese leicht recherchieren können:
+  - Name des Haustieres, der Kinder, zweiter Vorname
+  - Geburtstag, Adresse
+  - Wörter die im Zusammenhang mit dem Arbeitgeber stehen (Gebäudename etc.)
+  - Aktuelle Jahreszahl
+
+---
+
+- Besser die Anfangsbuchstaben eines Satzes verwenden
+  - Beispiel: IegPmS55: Ich esse gerne Pizza mit Salami 55
+- Niemals Passwörter direkt im Klartext auf der Festplatte speichern oder mit Zettel an den Bildschirm heften
+- Mithilfe von [haveibeenpwned.com](https://haveibeenpwned.com/) prüfen ob eigene E-Mail Adresse/Passwort-Kombination Teil eines Datenlecks war
+
+---
+
+# Passwortmanager
+
+- Digitaler Safe für alle Benutzer-Passwort Kombinationen 
+  - Passwörter werden verschlüsselt gespeichert und sind durch ein Master-Passwort gesichert
+- Synchronisierung zwischen mehreren Geräten möglich
+- Bieten oft die Möglichkeit, zufällig generierte Passwörter zu erzeugen
+- Kostenlose OpenSource-Varianten: KeepassX und Bitwarden
+  - Browser-Erweiterungen erhöhen den Komfort durch automatisches Ausfüllen von Login-Feldern
+- Viele kommerzielle Anbieter bieten auch kostenlose Varianten an
+  - Allerdings können bei einem Hackerangriff auf den Anbieter dann auch die eigenen Passwörter entwendet werden
 
 ---
 
 # 2-Faktor Authentifizierung
 
 - Logins zusätzlich zur Benutzernamen/Paswort Kombination mit einem weiteren zweiten Faktor absichern
-  - Beispiel zeitlich ablaufende Ziffernfolge auf dem Handy (Token)
+  - Beispiel: zeitlich ablaufende Ziffernfolge auf dem Handy (Token)
   - Nur mit diesem ist ein Login möglich, schützt effektiv vor Missbrauch des Zugangs
 - Wo möglich immer aktivieren!
 - Eventuell QR-Code/Einrichtcode im Passwortmanager hinterlegen um bei Verlust des Handys nicht aus Diensten ausgesperrt zu werden
@@ -121,6 +152,16 @@ Version 1.0
 # Allgemein
 
 - Immer Betriebssystem und verwendete Software aktuell halten
+- Virenscanner aktuell halten
+
+---
+
+# Über dieses Training
+
+- Training erstellt von [Security Companion](https://security-companion.net/)
+- Veröffentlicht unter Open Source Lizenz (Creative Commons Zero v1.0 Universal)
+  -> Training steht zur freien Verfügung
+  -> Verwendung, Weiterverbreitung und Änderungen sind erlaubt
 
 ---
 
