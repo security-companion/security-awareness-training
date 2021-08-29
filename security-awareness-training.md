@@ -6,6 +6,7 @@ backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 title: Cyber Security Awareness Training
 descrption: By https://security-companion.net
+
 ---
 
 # **Cyber Security Awareness Training**
@@ -27,6 +28,15 @@ Version 1.0
 - 2-Faktor Authentifizierung
 - Backups
 - Weiterführende Informationen
+
+---
+
+# Über dieses Training
+
+- Veröffentlicht unter Open Source Lizenz (Creative Commons Zero v1.0 Universal)
+  -> Training steht zur freien Verfügung
+  -> Verwendung, Änderungen und Vervielfältigung ist gestattet
+- Aktuelle Version kann [hier](https://security-companion.net/training/) heruntergeladen werden
 
 ---
 
@@ -82,6 +92,8 @@ Version 1.0
 - Auf das Schloß in der Browserleiste achten
   - Achtung! Das Schloß bedeutet nur, dass die Verbindung zwischen Browser und Client verschlüsselt ist.
   - Ein Schloß bedeutet nicht automatisch, dass die Seite sicher ist bzw. nicht von einem Angreifer betrieben wird.
+- Niemals Software installieren die in einem Browser Pop-Up beworben wird
+- Auf öffentlichen Rechnern (Hotel-Lobby, Bücherei etc.) nicht in E-Mail Konto oder Online-Banking einloggen da Angreifer Daten mitschneiden können
 
 ---
 
@@ -97,12 +109,12 @@ Version 1.0
 ---
 
 - Mindestens 12 Zeichen mit Kombination aus Groß-, Kleinbuchstaben, Ziffern und Sonderzeichen verwenden
-- Je länger ein Passwort desto schwieriger ist es dies zu knacken
+- Je länger ein Passwort desto schwieriger ist es, dies zu knacken
 - Kein Passwort wiederverwenden
 
 ---
 
-- Möglichst folgendes in den Passwörtern vermeiden da Angreifer diese leicht recherchieren können:
+- Möglichst folgende Wörter in den Passwörtern vermeiden da Angreifer diese leicht recherchieren können:
   - Name des Haustieres, der Kinder, zweiter Vorname
   - Geburtstag, Adresse
   - Wörter die im Zusammenhang mit dem Arbeitgeber stehen (Gebäudename etc.)
@@ -123,6 +135,9 @@ Version 1.0
   - Passwörter werden verschlüsselt gespeichert und sind durch ein Master-Passwort gesichert
 - Synchronisierung zwischen mehreren Geräten möglich
 - Bieten oft die Möglichkeit, zufällig generierte Passwörter zu erzeugen
+
+---
+
 - Kostenlose OpenSource-Varianten: KeepassX und Bitwarden
   - Browser-Erweiterungen erhöhen den Komfort durch automatisches Ausfüllen von Login-Feldern
 - Viele kommerzielle Anbieter bieten auch kostenlose Varianten an
@@ -140,6 +155,23 @@ Version 1.0
 
 ---
 
+# W-LAN
+
+- Hacker können leicht ein eigenes W-LAN aufspannen das gleich heißt wie das ursprüngliche (z.B. DB-WLAN)
+  - Öffentliche, unverschlüsselte W-LAN meiden
+  - stattdessen nur verschlüsselte W-LANs oder VPN verwenden
+- Kommerzielle VPN-Anbieter versprechen zwar, die Benutzer-Daten zu verschlüsseln und deswegen nicht auf sie zugreifen zu können. Dies zu überprüfen ist aber nicht ganz einfach
+
+---
+
+# Datenschutz
+
+- bei Produkten die man kostenlos nutzen kann ist man oft selbst das Produkt
+  - Anbieter nutzen Kundendaten und verkaufen diese an Werbepartner weiter
+  - Manchmal ist es besser, für ein Produkt zu zahlen und so Datensammelei einzudämmen
+
+---
+
 # Backups
 
 - Regelmäßig Backups von wichtigen Daten erstellen, beispielsweise über NAS oder USB-Stick
@@ -153,18 +185,13 @@ Version 1.0
 
 - Immer Betriebssystem und verwendete Software aktuell halten
 - Virenscanner aktuell halten
-
----
-
-# Über dieses Training
-
-- Training erstellt von [Security Companion](https://security-companion.net/)
-- Veröffentlicht unter Open Source Lizenz (Creative Commons Zero v1.0 Universal)
-  -> Training steht zur freien Verfügung
-  -> Verwendung, Weiterverbreitung und Änderungen sind erlaubt
+- Keine unbekannten USB-Sticks die man beispielsweise auf dem Parkplatz gefunden hat an Rechner anschließen
+  - Programme können selbstständig, unbemerkt und ohne Nutzeraktion starten
+  - Angreifer nutzern diese Methoden gezielt um in ein Netzwerk einzudringen
 
 ---
 
 # Weiterführende Informationen
 
+- [Kurse des Hasso-Plattner-Instituts](https://open.hpi.de/)
 - [BSI Leitfaden für Politiker](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Broschueren/Leitfaden-Kandidierende.pdf?__blob=publicationFile&v=7) - nicht nur für Politiker relevant
