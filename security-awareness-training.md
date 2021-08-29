@@ -103,7 +103,7 @@ Version 1.0
 ---
 
 - Wenn eine E-Mail mit verdächtigem Anhang von einem Freund/Bekannten kommt vor Öffnen des Anhangs telefonisch beim Absender nachfragen ob E-Mail legitim ist
-- Auf Schloß in der Browserleiste achten ![w:50 h:50](images/lock.jpg)
+- Auf Schloß in der Browserleiste achten ![w:50 h:50](https://security-companion.net/static/lock.jpg)
   - Achtung! Das Schloß bedeutet nur, dass die Verbindung zwischen Browser und Client verschlüsselt ist.
   - Ein Schloß bedeutet nicht automatisch, dass die Seite sicher ist bzw. nicht von einem Angreifer betrieben wird.
 
