@@ -19,6 +19,15 @@ Version 1.0
 
 ---
 
+# Über dieses Training
+
+- Veröffentlicht unter Open Source Lizenz (Creative Commons Zero v1.0 Universal)
+  -> Training steht zur freien Verfügung
+  -> Verwendung, Änderungen und Vervielfältigung ist gestattet
+- Aktuelle Version kann [hier](https://security-companion.net/training/) heruntergeladen werden
+
+---
+
 # Übersicht
 
 - Motivation
@@ -31,14 +40,6 @@ Version 1.0
 
 ---
 
-# Über dieses Training
-
-- Veröffentlicht unter Open Source Lizenz (Creative Commons Zero v1.0 Universal)
-  -> Training steht zur freien Verfügung
-  -> Verwendung, Änderungen und Vervielfältigung ist gestattet
-- Aktuelle Version kann [hier](https://security-companion.net/training/) heruntergeladen werden
-
----
 
 # Motivation
 
@@ -66,7 +67,11 @@ Version 1.0
 - Beispiele:
   - wenn nicht sofort die vom vermeintlichen Chef angeordnete Überweisung erfolgt drohen hohe Mahungskosten
   - Angreifer gibt sich als neuer Kollege aus und bittet um Mithilfe in Form der telefonischen Übermittlung von Paßwörtern
-  - Angreifer gibt sich als technischer Support von Microsoft aus und gibt an, ein Problem auf dem Computer lösen zu müssen
+
+---
+- weitere Beispiele:
+  - Angreifer gibt sich als technischer Support von z.B. Microsoft aus und gibt an, ein Problem auf dem Computer lösen zu müssen
+  - Angreifer gibt sich als Enkel aus und gibt vor, in großer Not zu sein und (finanzielle) Unterstützung zu benötigen
 
 ---
 
@@ -74,26 +79,39 @@ Version 1.0
 
 - Browser und E-Mail Clients sind direkt dem Internet ausgesetzt
   -> immer aktuell halten um gegen neue Angriffe möglichst geschützt zu sein
-- Vor Anklicken einen Links aus E-Mail, Chat-App etc. immer prüfen
+- Vor Anklicken einen Links aus E-Mail, Chat-App, SMS etc. immer prüfen
   - Habe ich diesen Link erwartet?
-  - Ist mir die URL(=Linkadresse) bekannt?
-  - Ist in der URL wirklich kein Buchstabe geändert? https://amazon.com und https://amaz0n.de sind komplett verschieden
+    - Link eines Paketzustellers obwohl gar kein Paket erwartet wird
+    - Link einer Bank bei der gar kein Konto vorhanden ist
 
 ---
 
-- Vor dem Anklicken eines Links auf diesen mit der Maus zeigen und in der Statusleiste dessen Korrektheit überprüfen
+  - Ist mir die URL(=Linkadresse) bekannt?
+  - Ist die Übersetzung mangelhaft?
+  - Ist in der URL wirklich kein Buchstabe geändert? https://amazon.com und https://amaz0n.com sind komplett verschieden
+- Vor dem Anklicken eines Links auf diesen mit der Maus zeigen (auf Tablets lange draufdrücken) und in der Statusleiste dessen Korrektheit überprüfen
+  - Ist anstatt einer URL eine IP-Adresse (192.168.178.1) sichtbar?
+  - Gehört der hintere Teil der Domain zu einem anderen Land? .ru, ..uk, .cn etc.?
+
+---
+
 - Gekürzte Links mit Diensten wie https://urlex.org/ oder https://unshorten.me/ überprüfen (den ganzen Link anzeigen lassen)
 - Beim Besuch von unbekannten Seiten diese kritisch hinterfragen und im Zweifelsfall den Besuch abbrechen
-  - Ist das Design verschoben oder fehlt es gänzlich
-- Seiten können mit https://virustotal.com auf Viren überprüft werden
+- Ist das Design verschoben oder fehlt es gänzlich?
+- Webseiten können mit https://virustotal.com auf Viren überprüft werden
 
 ---
 
-- Auf das Schloß in der Browserleiste achten
+- Wenn eine E-Mail mit verdächtigem Anhang von einem Freund/Bekannten kommt vor Öffnen des Anhangs telefonisch beim Absender nachfragen ob E-Mail legitim ist
+- Auf Schloß in der Browserleiste achten
   - Achtung! Das Schloß bedeutet nur, dass die Verbindung zwischen Browser und Client verschlüsselt ist.
   - Ein Schloß bedeutet nicht automatisch, dass die Seite sicher ist bzw. nicht von einem Angreifer betrieben wird.
+
+---
+
 - Niemals Software installieren die in einem Browser Pop-Up beworben wird
 - Auf öffentlichen Rechnern (Hotel-Lobby, Bücherei etc.) nicht in E-Mail Konto oder Online-Banking einloggen da Angreifer Daten mitschneiden können
+- Macros ins Microsoft Word, Excel etc. bei verdächtigen Anhängen niemals aktivieren!
 
 ---
 
