@@ -47,7 +47,7 @@ Version 1.1
 - Hackerangriffe auf Firmen und Organisationen sind in letzter Zeit stark angestiegen
 - Alle technischen Absicherungen sind nutzlos wenn die Personen, die diese bedienen diese bewusst oder unbewusst umgehen
 - Mitarbeiter einer Organisation sind oft das schwächste Glied in der Kette.
-- Diese Presentation soll dazu dienen, Mitarbeiter für die Zukunft zu rüsten und für die Themen der Cyber Security zu sensibilisieren.
+- Diese Präsentation soll dazu dienen, Mitarbeiter für die Zukunft zu rüsten und für die Themen der Cyber Security zu sensibilisieren.
 
 ---
 
@@ -55,9 +55,9 @@ Version 1.1
 
 - Adressen von externen oder internen Kontakten
 - Kontoverbindungen
-- Benutzernamen/Paßwörter
+- Benutzernamen/Passwörter
 - Finanzberichte
-- in der Organiation verwendete Hardware
+- in der Organisation verwendete Hardware
 - etc.
 
 ---
@@ -67,7 +67,7 @@ Version 1.1
 - Methoden, die Angreifer nutzen um Mitarbeitern sensible Informationen zu entlocken, oft unter Einsatz von Druck und dem Versuch, Mitleid zu erregen
 - Beispiele:
   - wenn nicht sofort die vom vermeintlichen Chef angeordnete Überweisung erfolgt drohen hohe Mahungskosten
-  - Angreifer gibt sich als neuer Kollege aus und bittet um Mithilfe in Form der telefonischen Übermittlung von Paßwörtern
+  - Angreifer gibt sich als neuer Kollege aus und bittet um Mithilfe in Form der telefonischen Übermittlung von Passwörtern
 
 ---
 - weitere Beispiele:
@@ -109,9 +109,9 @@ Version 1.1
 ---
 
 - Wenn eine E-Mail mit verdächtigem Anhang von einem Freund/Bekannten kommt vor Öffnen des Anhangs telefonisch beim Absender nachfragen ob E-Mail legitim ist
-- Auf Schloß in der Browserleiste achten ![w:50 h:50](https://security-companion.net/static/lock.jpg)
-  - Achtung! Das Schloß bedeutet nur, dass die Verbindung zwischen Browser und Client verschlüsselt ist.
-  - Ein Schloß bedeutet nicht automatisch, dass die Seite sicher ist bzw. nicht von einem Angreifer betrieben wird.
+- Auf Schloss in der Browserleiste achten ![w:50 h:50](https://security-companion.net/static/lock.jpg)
+  - Achtung! Das Schloss bedeutet nur, dass die Verbindung zwischen Browser und Client verschlüsselt ist.
+  - Ein Schloss bedeutet nicht automatisch, dass die Seite sicher ist bzw. nicht von einem Angreifer betrieben wird.
 
 ---
 
@@ -132,7 +132,7 @@ Version 1.1
 
 ---
 
-- Mindestvoraussetzungen für Paßwörter:
+- Mindestvoraussetzungen für Passwörter:
   - Mindestens 12 Zeichen mit Kombination aus Groß-, Kleinbuchstaben, Ziffern und Sonderzeichen verwenden
   - Je länger ein Passwort desto schwieriger ist es, dies zu knacken
   - Kein Passwort wiederverwenden
