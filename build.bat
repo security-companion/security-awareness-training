@@ -20,4 +20,4 @@ REM  Convert slien enck into PowerPoint document (PPTX)
 call marp security-awareness-training-en.md --pptx
 
 REM  Generate firstslien image
-call marp security-awareness-training-en.md --image jpeg -o training-firstslien-en.jpg
+call marp security-awareness-training-en.md --image jpeg -o training-firstslide-en.jpg

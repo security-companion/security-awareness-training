@@ -36,10 +36,9 @@ Version 1.1
 - Social Engineering
 - Security on the Internet
 - Passwords
-- 2-factor authentication
+- Two-factor authentication
 - Backups
-- General Information
-- Further information
+- General information
 
 ---
 
@@ -85,7 +84,7 @@ Version 1.1
 - Before clicking a link from email, chat app, SMS etc. always check the following:
   - Did I expect this link?
     - Link from a parcel delivery service although no parcel is expected
-    - Link from a bank where there is no account at all
+    - Link from a bank but I have no account from this bank
 
 ---
 
@@ -142,11 +141,6 @@ Version 1.1
 ---
 
 - Avoid the following words in passwords as attackers can easily research them:
-  - Pet or children's name, middle name.
-
----
-
-- Avoid the following words in passwords as attackers can easily research them:
   - Name of pet or children, middle name
   - Birthday, address
   - Words related to the employer (building name etc.)
@@ -177,7 +171,7 @@ Version 1.1
 
 ---
 
-# 2-factor authentication
+# Two-factor authentication
 
 - Secure logins with a second factor in addition to the username/password combination.
   - Example: chronological sequence of digits on the cell phone (token that changes every few seconds)
@@ -213,7 +207,7 @@ Version 1.1
 
 ---
 
-# General
+# General information
 
 - Always keep operating system and software up to date
 - Keep virus scanner up to date
