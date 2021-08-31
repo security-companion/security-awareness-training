@@ -15,7 +15,7 @@ descrption: By https://security-companion.net
 
 Erstellt von https://security-companion.net/
 
-Version 1.0
+Version 1.1
 
 ---
 
@@ -36,6 +36,7 @@ Version 1.0
 - Passwörter
 - 2-Faktor Authentifizierung
 - Backups
+- Allgemeine Hinweise
 - Weiterführende Informationen
 
 ---
@@ -43,7 +44,7 @@ Version 1.0
 
 # Motivation
 
-- Hackerangriffe auf Firmen, Organisationen sind in letzter Zeit stark angestiegen
+- Hackerangriffe auf Firmen und Organisationen sind in letzter Zeit stark angestiegen
 - Alle technischen Absicherungen sind nutzlos wenn die Personen, die diese bedienen diese bewusst oder unbewusst umgehen
 - Mitarbeiter einer Organisation sind oft das schwächste Glied in der Kette.
 - Diese Presentation soll dazu dienen, Mitarbeiter für die Zukunft zu rüsten und für die Themen der Cyber Security zu sensibilisieren.
@@ -78,7 +79,7 @@ Version 1.0
 # Sicherheit im Internet
 
 - Browser und E-Mail Clients sind direkt dem Internet ausgesetzt
-  -> immer aktuell halten um gegen neue Angriffe möglichst geschützt zu sein
+  -> immer aktuell halten um gegen neue Angriffe möglichst gut geschützt zu sein
 - Vor Anklicken einen Links aus E-Mail, Chat-App, SMS etc. immer prüfen
   - Habe ich diesen Link erwartet?
     - Link eines Paketzustellers obwohl gar kein Paket erwartet wird
@@ -89,16 +90,21 @@ Version 1.0
   - Ist mir die URL(=Linkadresse) bekannt?
   - Ist die Übersetzung mangelhaft?
   - Ist in der URL wirklich kein Buchstabe geändert? https://amazon.com und https://amaz0n.com sind komplett verschieden
-- Vor dem Anklicken eines Links auf diesen mit der Maus zeigen (auf Tablets lange draufdrücken) und in der Statusleiste dessen Korrektheit überprüfen
-  - Ist anstatt einer URL eine IP-Adresse (192.168.178.1) sichtbar?
-  - Gehört der hintere Teil der Domain zu einem anderen Land? .ru, ..uk, .cn etc.?
+  - Bin ich auf der offiziellen Seite oder gehört der hintere Teil der Domain zu einem anderen Land? .ru, .uk, .cn etc.?? 
+    - Beispiel: https://firma.com.mx oder https://firma.de anstatt https://firma.com
 
 ---
 
+- Vor dem Anklicken eines Links auf diesen mit der Maus zeigen (auf Tablets lange draufdrücken) und in der Statusleiste dessen Korrektheit überprüfen
+  - Ist anstatt einer URL eine IP-Adresse (192.168.178.1) sichtbar?
 - Gekürzte Links mit Diensten wie https://urlex.org/ oder https://unshorten.me/ überprüfen (den ganzen Link anzeigen lassen)
+
+---
+
 - Beim Besuch von unbekannten Seiten diese kritisch hinterfragen und im Zweifelsfall den Besuch abbrechen
 - Ist das Design verschoben oder fehlt es gänzlich?
 - Webseiten können mit https://virustotal.com auf Viren überprüft werden
+- Adresse einer Webseite besser direkt im Browser eingeben anstatt Link in E-Mail anzuklicken
 
 ---
 
@@ -111,7 +117,7 @@ Version 1.0
 
 - Niemals Software installieren die in einem Browser Pop-Up beworben wird
 - Auf öffentlichen Rechnern (Hotel-Lobby, Bücherei etc.) nicht in E-Mail Konto oder Online-Banking einloggen da Angreifer Daten mitschneiden können
-- Macros ins Microsoft Word, Excel etc. bei verdächtigen Anhängen niemals aktivieren!
+- Macros in Microsoft Word, Excel etc. bei verdächtigen Anhängen niemals aktivieren!
 
 ---
 
@@ -126,14 +132,15 @@ Version 1.0
 
 ---
 
-- Mindestens 12 Zeichen mit Kombination aus Groß-, Kleinbuchstaben, Ziffern und Sonderzeichen verwenden
-- Je länger ein Passwort desto schwieriger ist es, dies zu knacken
-- Kein Passwort wiederverwenden
+- Mindestvoraussetzungen für Paßwörter:
+  - Mindestens 12 Zeichen mit Kombination aus Groß-, Kleinbuchstaben, Ziffern und Sonderzeichen verwenden
+  - Je länger ein Passwort desto schwieriger ist es, dies zu knacken
+  - Kein Passwort wiederverwenden
 
 ---
 
 - Möglichst folgende Wörter in den Passwörtern vermeiden da Angreifer diese leicht recherchieren können:
-  - Name des Haustieres, der Kinder, zweiter Vorname
+  - Name des Haustieres oder der Kinder, zweiter Vorname
   - Geburtstag, Adresse
   - Wörter die im Zusammenhang mit dem Arbeitgeber stehen (Gebäudename etc.)
   - Aktuelle Jahreszahl
@@ -143,7 +150,7 @@ Version 1.0
 - Besser die Anfangsbuchstaben eines Satzes verwenden
   - Beispiel: IegPmS55: Ich esse gerne Pizza mit Salami 55
 - Niemals Passwörter direkt im Klartext auf der Festplatte speichern oder mit Zettel an den Bildschirm heften
-- Mithilfe von [haveibeenpwned.com](https://haveibeenpwned.com/) prüfen ob eigene E-Mail Adresse/Passwort-Kombination Teil eines Datenlecks war
+- Mithilfe von [haveibeenpwned.com](https://haveibeenpwned.com/) prüfen ob eigene E-Mail Adresse/Passwort-Kombination bereits Teil eines Datenlecks war
 
 ---
 
@@ -165,7 +172,7 @@ Version 1.0
 
 # 2-Faktor Authentifizierung
 
-- Logins zusätzlich zur Benutzernamen/Paswort Kombination mit einem weiteren zweiten Faktor absichern
+- Logins zusätzlich zur Benutzernamen/Passwort Kombination mit einem weiteren zweiten Faktor absichern
   - Beispiel: zeitlich ablaufende Ziffernfolge auf dem Handy (Token)
   - Nur mit diesem ist ein Login möglich, schützt effektiv vor Missbrauch des Zugangs
 - Wo möglich immer aktivieren!
@@ -177,8 +184,8 @@ Version 1.0
 
 - Hacker können leicht ein eigenes W-LAN aufspannen das gleich heißt wie das ursprüngliche (z.B. DB-WLAN)
   - Öffentliche, unverschlüsselte W-LAN meiden
-  - stattdessen nur verschlüsselte W-LANs oder VPN verwenden
-- Kommerzielle VPN-Anbieter versprechen zwar, die Benutzer-Daten zu verschlüsseln und deswegen nicht auf sie zugreifen zu können. Dies zu überprüfen ist aber nicht ganz einfach
+  - stattdessen nur verschlüsselte W-LANs und/oder VPN verwenden
+- Kommerzielle VPN-Anbieter versprechen zwar, die Benutzer-Daten zu verschlüsseln und deswegen nicht auf sie zugreifen zu können. Dies zu überprüfen ist aber schwierig
 
 ---
 
@@ -205,7 +212,7 @@ Version 1.0
 - Virenscanner aktuell halten
 - Keine unbekannten USB-Sticks die man beispielsweise auf dem Parkplatz gefunden hat an Rechner anschließen
   - Programme können selbstständig, unbemerkt und ohne Nutzeraktion starten
-  - Angreifer nutzern diese Methoden gezielt um in ein Netzwerk einzudringen
+  - Angreifer nutzen diese Methoden gezielt um in ein Netzwerk einzudringen
 
 ---
 
