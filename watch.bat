@@ -1,1 +1,1 @@
-marp -w security-awareness-training.md
+marp -w security-awareness-training-de.md
