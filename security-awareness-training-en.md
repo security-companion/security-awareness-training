@@ -26,7 +26,7 @@ Version 1.1
 - Released under open source license (Creative Commons Zero v1.0 Universal)
   -> Training is freely available
   -> use, changes and duplication is allowed
-- Current version can be downloaded [here](https://security-companion.net/training/)
+- Current version can be downloaded [here](https://github.com/security-companion/security-awareness-training/)
 
 ---
 

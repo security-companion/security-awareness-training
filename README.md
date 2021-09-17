@@ -16,3 +16,7 @@ npm install --save-dev @marp-team/marp-cli
 In order to generate the newest html, pdf and pptx-file please start build.bat
 
 When editing the presentation you can start watch.bat on Windows systems to see your edits live in a browser.
+
+## Adapt:
+
+In order to get a PowerPoint-presentation that you can edit please convert the pdf-file using an [Adobe Tool](https://www.adobe.com/acrobat/online/pdf-to-ppt.html)
