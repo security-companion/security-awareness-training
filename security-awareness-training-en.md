@@ -17,7 +17,7 @@ descrption: By https://security-companion.net
 
 Created by https://security-companion.net/
 
-Version 1.1
+Version 1.2
 
 ---
 
@@ -47,8 +47,8 @@ Version 1.1
 
 - Hacker attacks on companies and organizations have increased significantly lately
 - All technical safeguards are useless if the people who operate them bypass security measures consciously or unconsciously
-- Employees of an organization are often the weakest link in the chain.
-- This presentation is intended to equip employees for the future and to raise security awareness.
+- Employees of an organization are often the weakest link in the chain
+- This presentation is intended to equip employees for the future and to raise security awareness
 
 ---
 
@@ -58,21 +58,21 @@ Version 1.1
 - Account details
 - User names/passwords
 - Financial reports
-- Hardware used in the organization
+- Hardware and software used in the organization
 - etc.
 
 ---
 
 # Social engineering
 
-- Methods attackers use to elicit sensitive information from employees, often using pressure and trying to elicit sympathy
+- Methods that attackers use to elicit sensitive information from employees, often using pressure and trying to elicit sympathy
 - Examples:
   - if a bank transfer ordered by the supposed boss is not made immediately, high reminder costs are threatened
-  - The attacker prones to be a new colleague and asks for help by submitting passwords during a phone call.
+  - an attacker prones to be a new colleague and asks for help by submitting passwords during a phone call
 
 ---
 - further examples:
-  - Attackers pretend to be technical support, e.g. from Microsoft, and claim that they need to solve a problem on a computer.
+  - Attackers pretend to be technical support, e.g. from Microsoft, and claim that they need to solve a problem on a computer
   - attacker pretends to be a grandson and claims to be in (financial) need
 
 ---
@@ -90,34 +90,34 @@ Version 1.1
 
   - Do I know the URL (= link address)?
   - Is the translation poor?
-  - Is there really no letter changed in the URL? https://amazon.com and https://amaz0n.com are completely different.
+  - Is there really no letter changed in the URL? https://amazon.com and https://amaz0n.com are completely different
   - Am I on the official site or does the last part of the domain belong to another country? .ru, .uk, .cn etc.? 
-    - Example: https://company.com.mx or https://company.de instead of https://company.com
+    - Example: https://company.com.uk or https://company.de instead of https://company.com
 
 ---
 
-- Before clicking on a link, point to it with the mouse (on tablets long press on it) and check its correctness in the status bar.
+- Before clicking on a link, point to it with the mouse (on tablets long press on it) and check its correctness in the status bar
   - Is an IP address (192.168.178.1) visible instead of an URL?
-- Check shortened links with services such as https://urlex.org/ or https://unshorten.me/ (they display the whole link).
+- Check shortened links with services such as https://urlex.org/ or https://unshorten.me/ (they display the whole link)
 
 ---
 
-- When visiting unknown pages, check them critically and if in doubt, cancel the visit.
+- When visiting unknown pages, check them critically and if in doubt, cancel the visit
 - Does the design look strange or is it missing completely?
 - Websites can be checked for viruses with https://virustotal.com
-- It is more secure to enter the address of a website directly in the browser instead of clicking on the link in the e-mail.
+- It is more secure to enter the address of a website directly in the browser instead of clicking on the link in an e-mail
 
 ---
 
-- If you receive an e-mail with a suspicious attachment from a friend/colleague, call the sender before opening the attachment to check if the e-mail is legitimate.
+- If you receive an e-mail with a suspicious attachment from a friend/colleague, call the sender before opening the attachment to check if the e-mail is legitimate
 - Look for the lock in the browser bar ![w:50 h:50](https://security-companion.net/static/lock.jpg)
-  - Attention: The lock only means that the connection between browser and client is encrypted.
-  - A lock does not automatically mean that the site is secure or not operated by an attacker.
+  - Attention: The lock only means that the connection between browser and client is encrypted
+  - A lock does not automatically mean that the site is secure or not operated by an attacker
 
 ---
 
-- Never install software that is advertised in a browser pop-up.
-- Do not log into email accounts or online banking on public computers (hotel lobby, library etc.) as attackers can record data.
+- Never install software that is advertised in a browser pop-up
+- Do not log into email accounts or online banking on public computers (hotel lobby, library etc.) as attackers can record data
 - Never activate macros in Microsoft Word, Excel etc. with suspicious attachments!
 
 ---
@@ -149,9 +149,9 @@ Version 1.1
 ---
 
 - Better use the first letters of a sentence
-  - Example: IltepwS55: I like to eat pizza with Salami 55.
-- Never store passwords directly in plain text on the hard disk or attach them to the screen with a piece of paper.
-- Use [haveibeenpwned.com](https://haveibeenpwned.com/) to check if your email address/password combination has been part of a data leak.
+  - Example: IltepwS55: I like to eat pizza with Salami 55
+- Never store passwords directly in plain text on the hard disk or attach them to the screen with a piece of paper
+- Use [haveibeenpwned.com](https://haveibeenpwned.com/) or [HPI Identity Leak Checker](https://sec.hpi.de/ilc/search) to check if your email address/password combination has been part of a data leak
 
 ---
 
@@ -167,26 +167,26 @@ Version 1.1
 - Free open source variants: KeepassX and Bitwarden
   - Browser extensions increase convenience by automatically filling in login fields
 - Many commercial providers also offer free variants
-  - However, if an attacker hacks the providers server's your own passwords also might get stolen and eventually being published on darknet
+  - However, if an attacker hacks the provider's servers your own passwords also might get stolen and eventually being published on darknet
 
 ---
 
 # Two-factor authentication
 
-- Secure logins with a second factor in addition to the username/password combination.
+- Secure logins with a second factor in addition to the username/password combination
   - Example: chronological sequence of digits on the cell phone (token that changes every few seconds)
-  - Only with the token a login is possible and therefore protects effectively against abuse
-- Always activate where possible!
-- Possibly store QR code/setup code in password manager in order not to be locked out of services if cell phone gets lost
+  - Only with the token a login is possible and therefore it protects effectively against abuse
+- Always activate where possible
+- If possible store QR code/setup code in password manager in order to not being locked out of services if cell phone gets lost
 
 ---
 
 # WiFi
 
-- Hackers can easily set up their own WiFi with the same name as the original one (e.g. Library-WiFi).
+- Hackers can easily set up their own WiFi with the same name as the original one (e.g. Library- or train-WiFi)
   - avoid public, unencrypted WiFis
   - use only encrypted WiFi and/or VPN instead
-- Commercial VPN providers promise to encrypt the user data and therefore not to be able to access and uncrypt it. But it is difficult to verify this
+- Commercial VPN providers promise to encrypt user data and therefore not being able to access and uncrypt it. But this is difficult to verify
 
 ---
 
@@ -200,9 +200,9 @@ Version 1.1
 
 # Backups
 
-- Make regular backups of important data, e.g. via NAS or USB stick
+- Make regular backups of important data, e.g. using a NAS or an (encrypted) USB stick
 - Keep several versions, e.g. according to the scheme grandfather, father, child
-- Only backups that are not connected to a computer or network (offline backups) protect against encryption by Trojans or similar.
+- Only backups that are not connected to a computer or network (offline backups) protect against encryption by Trojans or similar attacks
 - Regularly practice restoring data in order to being prepared in case of an emergency
 
 ---
@@ -213,4 +213,4 @@ Version 1.1
 - Keep virus scanner up to date
 - Do not connect unknown USB sticks that you have found eg. in the parking lot to a computer
   - Programs can start independently, unnoticed and without user action
-  - Attackers use these methods specifically to penetrate a network.
+  - Attackers can use these methods specifically to penetrate a network

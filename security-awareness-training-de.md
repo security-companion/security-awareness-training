@@ -15,7 +15,7 @@ descrption: By https://security-companion.net
 
 Erstellt von https://security-companion.net/
 
-Version 1.1
+Version 1.2
 
 ---
 
@@ -57,7 +57,7 @@ Version 1.1
 - Kontoverbindungen
 - Benutzernamen/Passwörter
 - Finanzberichte
-- in der Organisation verwendete Hardware
+- in der Organisation verwendete Hardware und Software
 - etc.
 
 ---
@@ -150,7 +150,7 @@ Version 1.1
 - Besser die Anfangsbuchstaben eines Satzes verwenden
   - Beispiel: IegPmS55: Ich esse gerne Pizza mit Salami 55
 - Niemals Passwörter direkt im Klartext auf der Festplatte speichern oder mit Zettel an den Bildschirm heften
-- Mithilfe von [haveibeenpwned.com](https://haveibeenpwned.com/) prüfen ob eigene E-Mail Adresse/Passwort-Kombination bereits Teil eines Datenlecks war
+- Mithilfe von [haveibeenpwned.com](https://haveibeenpwned.com/) oder [HPI Identity Leak Checker](https://sec.hpi.de/ilc/search) prüfen ob eigene E-Mail Adresse/Passwort-Kombination bereits Teil eines Datenlecks war
 
 ---
 
@@ -182,7 +182,7 @@ Version 1.1
 
 # W-LAN
 
-- Hacker können leicht ein eigenes W-LAN aufspannen das gleich heißt wie das ursprüngliche (z.B. DB-WLAN)
+- Hacker können leicht ein eigenes W-LAN aufspannen das gleich heißt wie das ursprüngliche (z.B. Bücherei- oder Zug-WLAN)
   - Öffentliche, unverschlüsselte W-LAN meiden
   - stattdessen nur verschlüsselte W-LANs und/oder VPN verwenden
 - Kommerzielle VPN-Anbieter versprechen zwar, die Benutzer-Daten zu verschlüsseln und deswegen nicht auf sie zugreifen zu können. Dies zu überprüfen ist aber schwierig
@@ -199,7 +199,7 @@ Version 1.1
 
 # Backups
 
-- Regelmäßig Backups von wichtigen Daten erstellen, beispielsweise über NAS oder USB-Stick
+- Regelmäßig Backups von wichtigen Daten erstellen, beispielsweise über NAS oder (verschlüsselten) USB-Stick
 - Mehrere Versionsstände vorhalten, z.B. nach Schema Großvater, Vater, Kind
 - Nur Backups, die nicht mit einem Computer oder Netzwerk verbunden sind (Offline-Backps) schützen vor Verschlüsselung durch Trojaner o.ä.
 - Regelmäßig Wiederherstellen der Daten üben um für den Ernstfall vorbereitet zu sein
@@ -212,7 +212,7 @@ Version 1.1
 - Virenscanner aktuell halten
 - Keine unbekannten USB-Sticks die man beispielsweise auf dem Parkplatz gefunden hat an Rechner anschließen
   - Programme können selbstständig, unbemerkt und ohne Nutzeraktion starten
-  - Angreifer nutzen diese Methoden gezielt um in ein Netzwerk einzudringen
+  - Angreifer können diese Methoden gezielt nutzen um in ein Netzwerk einzudringen
 
 ---
 
