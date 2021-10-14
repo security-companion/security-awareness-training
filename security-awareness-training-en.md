@@ -17,7 +17,7 @@ descrption: By https://security-companion.net
 
 Created by https://security-companion.net/
 
-Version 1.2
+Version 1.3
 
 ---
 
@@ -109,6 +109,12 @@ Version 1.2
 
 ---
 
+- When using seeling platforms only communicate with others over the official contact application of the plaform 
+  - If a potential buyer is contacting you via messenger then be cautious
+  - Don't allow others to pressure you but instead abort contact if in doubt
+
+---
+
 - If you receive an e-mail with a suspicious attachment from a friend/colleague, call the sender before opening the attachment to check if the e-mail is legitimate
 - Look for the lock in the browser bar ![w:50 h:50](https://security-companion.net/static/lock.jpg)
   - Attention: The lock only means that the connection between browser and client is encrypted
@@ -164,7 +170,7 @@ Version 1.2
 
 ---
 
-- Free open source variants: KeepassX and Bitwarden
+- Free open source variants: KeepassXC and Bitwarden
   - Browser extensions increase convenience by automatically filling in login fields
 - Many commercial providers also offer free variants
   - However, if an attacker hacks the provider's servers your own passwords also might get stolen and eventually being published on darknet

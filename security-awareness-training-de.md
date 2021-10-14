@@ -15,7 +15,7 @@ descrption: By https://security-companion.net
 
 Erstellt von https://security-companion.net/
 
-Version 1.2
+Version 1.3
 
 ---
 
@@ -108,6 +108,13 @@ Version 1.2
 
 ---
 
+- Auf Verkaufsplattformen immer nur die offiziellen Nachrichtenkanäle verwenden
+  - Falls sich ein potenzieller Käufer per Messenger meldet immer besonders vorsichtig und mißtrauisch sein
+  - Eine häufige Masche ist, vorzugeben, einen Artikel kaufen zu wollen und zusätzlich noch Gutscheinkarten die der Verkäufer zuätzlich im Namen des Käufers erwerben soll
+  - Nicht unter (zeitlichen) Druck setzen lassen sondern Kontakt abbrechen
+
+---
+
 - Wenn eine E-Mail mit verdächtigem Anhang von einem Freund/Bekannten kommt vor Öffnen des Anhangs telefonisch beim Absender nachfragen ob E-Mail legitim ist
 - Auf Schloss in der Browserleiste achten ![w:50 h:50](https://security-companion.net/static/lock.jpg)
   - Achtung! Das Schloss bedeutet nur, dass die Verbindung zwischen Browser und Client verschlüsselt ist.
@@ -163,7 +170,7 @@ Version 1.2
 
 ---
 
-- Kostenlose OpenSource-Varianten: KeepassX und Bitwarden
+- Kostenlose OpenSource-Varianten: KeepassXC und Bitwarden
   - Browser-Erweiterungen erhöhen den Komfort durch automatisches Ausfüllen von Login-Feldern
 - Viele kommerzielle Anbieter bieten auch kostenlose Varianten an
   - Allerdings können bei einem Hackerangriff auf den Anbieter dann auch die eigenen Passwörter entwendet werden
