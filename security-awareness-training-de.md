@@ -11,8 +11,6 @@ description: By https://security-companion.net
 
 # **Cyber Security Awareness Training**
 
-
-
 Erstellt von https://security-companion.net/
 
 Version 1.3
@@ -64,7 +62,7 @@ Version 1.3
 
 # Social Engineering
 
-- Methoden, die Angreifer nutzen um Mitarbeitern sensible Informationen zu entlocken, oft unter Einsatz von Druck und dem Versuch, Mitleid zu erregen
+- Definition: Methoden, die Angreifer nutzen um Mitarbeitern sensible Informationen zu entlocken, oft unter Einsatz von Druck und dem Versuch, Mitleid zu erregen
 - Beispiele:
   - wenn nicht sofort die vom vermeintlichen Chef angeordnete Überweisung erfolgt drohen hohe Mahungskosten
   - Angreifer gibt sich als neuer Kollege aus und bittet um Mithilfe in Form der telefonischen Übermittlung von Passwörtern
@@ -88,7 +86,7 @@ Version 1.3
 ---
 
   - Ist mir die URL(=Linkadresse) bekannt?
-  - Ist die Übersetzung mangelhaft?
+  - Ist die Übersetzung der Webseite oder E-Mail mangelhaft?
   - Ist in der URL wirklich kein Buchstabe geändert? https://amazon.com und https://amaz0n.com sind komplett verschieden
   - Bin ich auf der offiziellen Seite oder gehört der hintere Teil der Domain zu einem anderen Land? .ru, .uk, .cn etc.?? 
     - Beispiel: https://firma.com.mx oder https://firma.de anstatt https://firma.com

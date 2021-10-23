@@ -9,11 +9,7 @@ description: By https://security-companion.net
 
 ---
 
-
-
 # **Cyber Security Awareness Training**
-
-
 
 Created by https://security-companion.net/
 
@@ -35,10 +31,11 @@ Version 1.4
 - Motivation
 - Social Engineering
 - Security on the Internet
+- Email
 - Passwords
 - Two-factor authentication
+- Wi-Fi / VPN
 - Backups
-- General information
 
 ---
 
@@ -71,7 +68,7 @@ Version 1.4
 
 # Social engineering
 
-- Methods that attackers use to elicit sensitive information from employees, often using pressure and trying to elicit sympathy
+- Definition: Methods that attackers use to elicit sensitive information from employees, often using pressure and trying to elicit sympathy
 - Especially receptionists need to be careful when receiving calls or welcoming a so called "printer repair technician" on the campus
 - Examples:
   - if a bank transfer ordered by the supposed boss is not made immediately, high reminder costs are threatened
@@ -96,7 +93,7 @@ Version 1.4
 ---
 
   - Do I know the URL (= link address)?
-  - Is the translation poor? Are the images of bad quality?
+  - Is the translation of the website or email poor? Are the images of bad quality?
   - Is there really no letter changed in the URL? https://amazon.com and https://amaz0n.com are completely different
   - Am I on the official site or does the last part of the domain belong to another country? .ru, .uk, .cn etc.? 
     - Example: https://company.com.uk or https://company.de instead of https://company.com
@@ -249,7 +246,7 @@ Version 1.4
 
 ---
 
-# Cloud-based/online Storage:
+# Cloud-based/online Storage
 - Many cloud providers encrypt your data on their servers - but they have the master key and can therefore encrypt and read your data
 - Better watch for providers that offer Zero-knowledge storage
   - This means that data is encrypted locally on your machine before being transmitted to a cloud provider

@@ -21,3 +21,14 @@ call marp security-awareness-training-en.md --pptx
 
 REM  Generate firstslien image
 call marp security-awareness-training-en.md --image jpeg -o training-firstslide-en.jpg
+
+call marp security-awareness-training-es.md
+
+REM  Convert slien enck into PDF
+call marp security-awareness-training-es.md --pdf
+
+REM  Convert slien enck into PowerPoint document (PPTX)
+call marp security-awareness-training-es.md --pptx
+
+REM  Generate firstslien image
+call marp security-awareness-training-es.md --image jpeg -o training-firstslide-es.jpg
