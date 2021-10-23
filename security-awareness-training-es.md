@@ -161,7 +161,7 @@ Versión 1.4
 
 - Los atacantes tienen [largas listas de contraseñas](https://github.com/danielmiessler/SecLists/tree/master/Passwords/Common-Credentials) con millones de contraseñas a su disposición. Las prueban en las páginas de inicio de sesión hasta que tienen éxito
 - Ejemplos de malas contraseñas:
-  - P@ssw0rd
+  - C0ntr@seña
   - verano2021
   - secreto1
   - abc123
