@@ -70,12 +70,16 @@ Versión 1.4
 
 - Definición: Métodos que los atacantes utilizan para obtener información sensible de los empleados, a menudo utilizando presión y tratando de provocar la simpatía
 - Especialmente los recepcionistas deben tener cuidado al recibir llamadas o recibir a un supuesto "técnico de reparación de impresoras" en el campus
+
+---
+
 - Ejemplos:
   - si no se realiza inmediatamente una transferencia bancaria ordenada por el supuesto jefe, se amenaza con elevados costes de recordatorio
   - un atacante se hace pasar por un nuevo colega y pide durante una llamada telefónica con un empleado que le pase contraseñas 
 
 ---
-- otros ejemplos:
+
+- Ejemplos:
   - Los atacantes se hacen pasar por el servicio técnico, por ejemplo de Microsoft, y afirman que necesitan resolver un problema en un ordenador
   - el atacante se hace pasar por un nieto y afirma tener una necesidad (económica)
 
@@ -86,9 +90,12 @@ Versión 1.4
 - Los navegadores y programas de correo electrónico están directamente expuestos al Internet
   -> mantenerlos siempre actualizados para estar lo mejor protegido posible contra nuevos ataques
 - Antes de hacer clic en un enlace de correo electrónico, aplicación de chat, SMS, etc., comprueba siempre lo siguiente
+
+---
+
   - ¿Esperaba este enlace?
     - Enlace de un servicio de entrega de paquetes aunque no se espera ningún paquete
-    - Enlace de un banco, pero no tengo ninguna cuenta en ese banco
+    - Enlace de un banco, pero no tiene ninguna cuenta en ese banco
 
 ---
 
@@ -120,16 +127,16 @@ Versión 1.4
 
 ---
 
-- Si recibe un correo electrónico con un archivo adjunto sospechoso de un amigo/colega, llame al remitente antes de abrir el archivo adjunto para comprobar si el correo es legítimo
-- Busque el candado en la barra del navegador ![w:50 h:50](https://security-companion.net/static/lock.jpg)
+- Al recibir un correo electrónico con un archivo adjunto sospechoso de un amigo/colega, llamar al remitente antes de abrir el archivo adjunto para comprobar si el correo es legítimo
+- Buscar el candado en la barra del navegador ![w:50 h:50](https://security-companion.net/static/lock.jpg)
   - Atención: El candado sólo significa que la conexión entre el navegador y el cliente está cifrada
   - Un candado no significa automáticamente que el sitio sea seguro o que no sea operado por un atacante
 
 ---
 
-- No instale un software que se anuncia en una ventana emergente del navegador
-- No inicie sesión en cuentas de correo electrónico o banca en línea en ordenadores públicos (hotel, biblioteca, etc.) ya que atacantes pueden ver y analizar posiblemente sus datos
-- Nunca active macros en Microsoft Word, Excel, etc. con archivos adjuntos sospechosos
+- No instalar un software que se anuncia en una ventana emergente del navegador
+- No iniciar sesión en cuentas de correo electrónico o banca en línea en ordenadores públicos (hotel, biblioteca, etc.) ya que atacantes pueden ver y analizar posiblemente sus datos
+- No activar macros en Microsoft Word, Excel, etc. con archivos adjuntos sospechosos
 
 ---
 
@@ -137,13 +144,13 @@ Versión 1.4
 
 - Muchos programas de correo electrónico sólo muestran el nombre del remitente, pero no la dirección de correo electrónico completa
 - Correos electrónicos falsos: Los atacantes hacen que un correo electrónico parezca válido aunque sea falso/estafa
-- Verifique el dominio: sólo service@paypal.com es válido, customerservicepaypal@gmail.com no
-  - Tenga en cuenta que la segunda dirección de correo electrónico no es filtrada por los servidores de correo y los filtros de spam y, por lo tanto a los atacantes les gusta usar correos de este tipo
+- Verificar el dominio: sólo service@paypal.com es válido, servicioalconsomidorpaypal@gmail.com no
+  - Tener en cuenta que la segunda dirección de correo electrónico no es filtrada por los servidores de correo y los filtros de spam y, por lo tanto a los atacantes les gusta usar correos de este tipo
 
 ---
 
-- No utilice la misma cuenta de correo electrónico para todas sus actividades en línea, separe la del trabajo de la personal
-- Utiliza una cuenta separada cuando compres en línea
+- No utilizar la misma cuenta de correo electrónico para todas sus actividades en línea, separe la del trabajo de la personal
+- Utilizar una cuenta separada cuando compres en línea
   - Muchos vendedores añaden automáticamente a los compradores a sus listas de correo, por lo que la cuenta recibirá muchos correos con el tiempo
   - Si la cuenta recibe demasiado spam, se puede cerrar y crear una nueva
   -> La cuenta personal se mantiene limpia de correos no deseados
@@ -163,10 +170,10 @@ Versión 1.4
 
 - Requisitos mínimos para las contraseñas:
   - Evitar el Leetspeak (sustitución de caracteres por símbolos y números de aspecto similar, por ejemplo, @ por "a" o 3 por "e")
-  - Utilice al menos 12 caracteres con una combinación de letras mayúsculas, minúsculas, números y caracteres especiales.
+  - Utilizar al menos 12 caracteres con una combinación de letras mayúsculas, minúsculas, números y caracteres especiales.
   - Cuanto más larga sea la contraseña, más difícil será descifrarla.
   - No reutilizar las contraseñas
-  - Tenga en cuenta que las contraseñas que son fáciles de recordar para usted también son fáciles de adivinar por un atacante
+  - Tener en cuenta que las contraseñas que son fáciles de recordar para usted también son fáciles de adivinar por un atacante
 
 ---
 
@@ -182,7 +189,7 @@ Versión 1.4
 - Mejor utilizar las primeras letras de una frase
   - Ejemplo: MgcpcS55: Me gusta comer pizza con Salami 55
 - Evitar guardas contraseñas directamente en texto plano en el disco duro o pegarlas a la pantalla con un pedazo de papel
-- Utilice [haveibeenpwned.com](https://haveibeenpwned.com/) o [HPI Identity Leak Checker](https://sec.hpi.de/ilc/search) para comprobar si su combinación de dirección de correo electrónico y contraseña ha formado parte de una fuga de datos
+- Utilizar [haveibeenpwned.com](https://haveibeenpwned.com/) o [HPI Identity Leak Checker](https://sec.hpi.de/ilc/search) para comprobar si su combinación de dirección de correo electrónico y contraseña ha formado parte de una fuga de datos
 
 ---
 
@@ -229,13 +236,13 @@ Versión 1.4
 
 - Las VPN no hacen que una conexión sea "más segura", ya que hoy en día la mayoría de las conexiones ya están cifradas mediante SSL/TLS
 - La VPN es útil 
-  - si quieres ocultar a tu proveedor de Internet qué sitios visitas
-  - si quieres ocultar a una página web de qué país vienes (y si por ejemplo quieres activar contenidos que no estarían disponibles sin VPN)
+  - si quiere ocultar a tu proveedor de Internet qué sitios visitas
+  - si quiere ocultar a una página web de qué país vienes (y si por ejemplo quieres activar contenidos que no estarían disponibles sin VPN)
 
 ---
 
 - Los proveedores de VPN comerciales prometen encriptar los datos del usuario y, por lo tanto, no poder acceder a ellos ni desencriptarlos, aunque esto es difícil de verificar
-- Evite los proveedores de VPN "gratuitos"
+- Evitar los proveedores de VPN "gratuitos"
 
 ---
 
@@ -243,6 +250,9 @@ Versión 1.4
 
 - Pensar cuales tipo de datos tiene en su trabajo o en su lugar privado y considerar como protegerlos si se pierden, se los roban o si están en manos de alguien extraño
 - Ordenadores: Aunque es necesario iniciar sesión para usarlos, los datos pueden ser leídos aún si su disco está conectado a otro ordenador o si se conecta a él una memoria USB con un segundo sistema operativo.
+
+---
+
 - Mejor encriptarlos con herramientas como BitLocker, VeraCrypt en Windows, FileVault en Mac y LUKS en Linux
 - Lo mismo ocurre con los discos duros y las memorias USB: Una vez conectados a un ordenador, los datos pueden ser leídos desde ellos si no están encriptados
 
@@ -253,7 +263,7 @@ Versión 1.4
 - Es mejor buscar proveedores que ofrezcan almacenamiento de conocimiento cero
   - Esto significa que los datos se encriptan localmente en su máquina antes de ser transmitidos a un proveedor de la nube
   - Nadie más que usted puede leer los datos
-- También puede cifrar los archivos localmente con herramientas como Cryptomater y BoxCryptor antes de enviarlos, por ejemplo, a Dropbox
+- También puede cifrar los archivos localmente con programas como Cryptomater y BoxCryptor antes de enviarlos p. ej. a Dropbox
 
 ---
 
@@ -268,7 +278,7 @@ Versión 1.4
 
 # Información general
 
-- Nunca puede estar 100% "seguro" de los ataques, sólo puede gestionar y mitigar los riesgos a los que se enfrenta uno
+- Uno Nunca puede estar 100% "seguro" de los ataques, sólo puede gestionar y mitigar los riesgos a los que se enfrenta uno
 - Revisar regularmente si lo que se ha estado haciendo ayer sigue siendo útil y seguro hoy y mañana
 
 ---
