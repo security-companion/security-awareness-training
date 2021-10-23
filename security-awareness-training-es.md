@@ -95,7 +95,7 @@ Versión 1.4
   - ¿Conozco la URL (= dirección del enlace)?
   - ¿Es mala la traducción de la página o del correo electrónico? ¿Las imágenes son de mala calidad?
   - ¿Realmente no hay ninguna letra cambiada en la URL? https://amazon.com y https://amaz0n.com son completamente diferentes
-  - ¿Estoy en el sitio oficial o la última parte del dominio pertenece a otro país? .ru, .uk, .cn, etc.? 
+  - ¿Estoy en el sitio oficial o pertenece la última parte del dominio a otro país? .ru, .uk, .cn, etc.? 
     - Ejemplo: https://company.com.uk o https://company.de en lugar de https://company.com
     - Ejemplo: https://facebk.com en lugar de https://facebook.com
 
@@ -114,20 +114,20 @@ Versión 1.4
 
 ---
 
-- Cuando utilices plataformas de venta, sólo comunícate con otros usuarios a través de la aplicación de contacto oficial de la plataforma 
-  - Si un comprador potencial se pone en contacto contigo a través de messenger, sé precavido
-  - No permitas que otros te presionen, sino que aborta el contacto en caso de duda
+- Cuando utiliza plataformas de venta, sólo comuníquese con otros usuarios a través de la aplicación de contacto oficial de la plataforma 
+  - Si un comprador potencial se pone en contacto consigo a través de messenger, sea precavido
+  - No permitas que otros lo presionen, sino que cancele el contacto en caso de duda
 
 ---
 
-- Si recibes un correo electrónico con un archivo adjunto sospechoso de un amigo/colega, llama al remitente antes de abrir el archivo adjunto para comprobar si el correo es legítimo
-- Busca el candado en la barra del navegador ![w:50 h:50](https://security-companion.net/static/lock.jpg)
+- Si recibe un correo electrónico con un archivo adjunto sospechoso de un amigo/colega, llame al remitente antes de abrir el archivo adjunto para comprobar si el correo es legítimo
+- Busque el candado en la barra del navegador ![w:50 h:50](https://security-companion.net/static/lock.jpg)
   - Atención: El candado sólo significa que la conexión entre el navegador y el cliente está cifrada
   - Un candado no significa automáticamente que el sitio sea seguro o que no sea operado por un atacante
 
 ---
 
-- No instale nunca un software que se anuncie en una ventana emergente del navegador
+- No instale un software que se anuncia en una ventana emergente del navegador
 - No inicie sesión en cuentas de correo electrónico o banca en línea en ordenadores públicos (hotel, biblioteca, etc.) ya que atacantes pueden ver y analizar posiblemente sus datos
 - Nunca active macros en Microsoft Word, Excel, etc. con archivos adjuntos sospechosos
 
@@ -165,13 +165,13 @@ Versión 1.4
   - Evitar el Leetspeak (sustitución de caracteres por símbolos y números de aspecto similar, por ejemplo, @ por "a" o 3 por "e")
   - Utilice al menos 12 caracteres con una combinación de letras mayúsculas, minúsculas, números y caracteres especiales.
   - Cuanto más larga sea la contraseña, más difícil será descifrarla.
-  - No reutilice las contraseñas
+  - No reutilizar las contraseñas
   - Tenga en cuenta que las contraseñas que son fáciles de recordar para usted también son fáciles de adivinar por un atacante
 
 ---
 
-- Evite las siguientes palabras en las contraseñas, ya que los atacantes pueden investigarlas fácilmente
-  - Nombre de la mascota o de los hijos, segundo nombre
+- Evitar las siguientes palabras en las contraseñas, ya que los atacantes pueden investigarlas fácilmente
+  - Nombres de familiares o mascotas
   - Cumpleaños, dirección
   - Palabras relacionadas con la compañía donde trabaja (nombre del edificio, etc.)
   - Año actual
@@ -181,7 +181,7 @@ Versión 1.4
 
 - Mejor utilizar las primeras letras de una frase
   - Ejemplo: MgcpcS55: Me gusta comer pizza con Salami 55
-- Nunca guardes las contraseñas directamente en texto plano en el disco duro o las pegues a la pantalla con un pedazo de papel
+- Evitar guardas contraseñas directamente en texto plano en el disco duro o pegarlas a la pantalla con un pedazo de papel
 - Utilice [haveibeenpwned.com](https://haveibeenpwned.com/) o [HPI Identity Leak Checker](https://sec.hpi.de/ilc/search) para comprobar si su combinación de dirección de correo electrónico y contraseña ha formado parte de una fuga de datos
 
 ---
@@ -219,8 +219,8 @@ Versión 1.4
 # Wi-Fi
 
 - Los piratas informáticos pueden configurar fácilmente su propio Wi-Fi con el mismo nombre que el original (por ejemplo, Wi-Fi de la biblioteca o del tren)
-  - evite las Wi-Fis públicas no cifradas
-  - utilice sólo Wi-Fi encriptado y/o VPN
+  - Evitar las Wi-Fis públicas no cifradas
+  - Utilizar sólo Wi-Fi encriptado y/o VPN
   - Utilizar preferentemente conexiones por cable en lugar de Wi-Fi
 
 ---
@@ -241,7 +241,7 @@ Versión 1.4
 
 # Protección de datos
 
-- Piensa cuales tipo de datos tiene en tu trabajo o en su lugar privado y considere cómo protegerlos si se pierden, se los roban o si están en manos de alguien extraño
+- Pensar cuales tipo de datos tiene en su trabajo o en su lugar privado y considerar como protegerlos si se pierden, se los roban o si están en manos de alguien extraño
 - Ordenadores: Aunque es necesario iniciar sesión para usarlos, los datos pueden ser leídos aún si su disco está conectado a otro ordenador o si se conecta a él una memoria USB con un segundo sistema operativo.
 - Mejor encriptarlos con herramientas como BitLocker, VeraCrypt en Windows, FileVault en Mac y LUKS en Linux
 - Lo mismo ocurre con los discos duros y las memorias USB: Una vez conectados a un ordenador, los datos pueden ser leídos desde ellos si no están encriptados
@@ -277,13 +277,13 @@ Versión 1.4
   - Los proveedores utilizan los datos de los clientes y los venden a otras compañías
   - El freeware puede ser un programa espía que envía información sensible de su ordenador a los servidores del desarrollador
   - A veces es mejor pagar por un producto y así limitar la recogida de datos
-- Instale sólo el software necesario y descárguelo únicamente de fuentes confiables
+- Instalar solamente el software necesario y descárguelo únicamente de fuentes confiables
 
 ---
 
-- Mantenga siempre actualizado el sistema operativo y el software
-- Mantenga actualizado el antivirus
-- Tenga en cuenta que las suites que prometen hacer "todo" lo relacionado con la seguridad por el usuario tienen sus límites
-- No conecte al ordenador memorias USB desconocidas que haya encontrado, por ejemplo, en el estacionamiento
+- Mantener siempre actualizado el sistema operativo y el software
+- Mantener actualizado el antivirus
+- Tener en cuenta que las suites que prometen hacer "todo" lo relacionado con la seguridad por el usuario tienen sus límites
+- No conectar al ordenador memorias USB desconocidas que haya encontrado, por ejemplo, en el estacionamiento
   - Los programas pueden iniciarse de forma independiente, sin que se note y sin que el usuario actúe
   - Los atacantes pueden utilizar estos métodos específicamente para penetrar (entrar) una red
