@@ -145,6 +145,12 @@ Version 1.4
 
 ---
 
+- Don't use the same email account for everything, separate work from personal
+- Use separate account when shopping online
+  - Many vendors add buyers automatically to mailing lists, therefore account will receive lots of mails over time
+  - If account receives too much spam then it can be closed and created a new one
+  - -> Personal account stays cleaner from undesired emails
+
 # Passwords
 
 - Attackers have [long password lists](https://github.com/danielmiessler/SecLists/tree/master/Passwords/Common-Credentials) with millions of passwords at their disposal. They try these on login pages until they succeed

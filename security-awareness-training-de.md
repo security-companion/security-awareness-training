@@ -5,7 +5,7 @@ paginate: true
 backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 title: Cyber Security Awareness Training
-descrption: By https://security-companion.net
+description: By https://security-companion.net
 
 ---
 
@@ -96,7 +96,7 @@ Version 1.3
 ---
 
 - Vor dem Anklicken eines Links auf diesen mit der Maus zeigen (auf Tablets lange draufdrücken) und in der Statusleiste dessen Korrektheit überprüfen
-  - Ist anstatt einer URL eine IP-Adresse (192.168.178.1) sichtbar?
+  - Ist anstatt einer URL eine IP-Adresse (93.235.136.159) sichtbar?
 - Gekürzte Links mit Diensten wie https://urlex.org/ oder https://unshorten.me/ überprüfen (den ganzen Link anzeigen lassen)
 
 ---
