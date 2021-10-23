@@ -173,16 +173,16 @@ Versión 1.4
 - Evite las siguientes palabras en las contraseñas, ya que los atacantes pueden investigarlas fácilmente
   - Nombre de la mascota o de los hijos, segundo nombre
   - Cumpleaños, dirección
-  - Palabras relacionadas con el empleador (nombre del edificio, etc.)
+  - Palabras relacionadas con la compañía donde trabaja (nombre del edificio, etc.)
   - Año actual
   - Palabras que puedan encontrarse en un diccionario o citas de libros famosos, películas, etc.
 
 ---
 
 - Mejor utilizar las primeras letras de una frase
-  - Ejemplo: IltepwS55: Me gusta comer pizza con Salami 55
-- Nunca guardes las contraseñas directamente en texto plano en el disco duro o las pegues a la pantalla con un trozo de papel
-- Utilice [haveibeenpwned.com](https://haveibeenpwned.com/) o [HPI Identity Leak Checker](https://sec.hpi.de/ilc/search) para comprobar si su combinación de dirección de correo electrónico y contraseña ha formado parte de una filtración de datos
+  - Ejemplo: MgcpcS55: Me gusta comer pizza con Salami 55
+- Nunca guardes las contraseñas directamente en texto plano en el disco duro o las pegues a la pantalla con un pedazo de papel
+- Utilice [haveibeenpwned.com](https://haveibeenpwned.com/) o [HPI Identity Leak Checker](https://sec.hpi.de/ilc/search) para comprobar si su combinación de dirección de correo electrónico y contraseña ha formado parte de una fuga de datos
 
 ---
 
@@ -191,7 +191,7 @@ Versión 1.4
 - Caja fuerte digital para todas las combinaciones usuario-contraseña 
   - las contraseñas se almacenan encriptadas en el disco duro y están protegidas por una contraseña maestra
 - Posibilidad de sincronización entre varios dispositivos
-- A menudo ofrece la posibilidad de generar contraseñas al azar
+- Ofrecen la posibilidad de generar contraseñas al azar
 
 ---
 
@@ -204,14 +204,14 @@ Versión 1.4
 
 # Autenticación de dos factores
 
-- Asegurar los inicios de sesión con un segundo factor además de la combinación nombre de usuario/contraseña.
+- Asegurar los inicios de sesión con un segundo factor a parte de la combinación nombre de usuario/contraseña.
   - Ejemplo: secuencia cronológica de dígitos en el teléfono móvil (token que cambia cada pocos segundos)
-  - Sólo con el token es posible un inicio de sesión y, por tanto, protege eficazmente contra los abusos
+  - Sólo con el token es posible un inicio de sesión y, por lo tanto, protege eficazmente contra los abusos
 - Activar cuando sea posible
 
 ---
 
-- Evitar los tokens que se envían por SMS al teléfono, mejor utilizar tokens que cambian cada pocos segundos son generados por una app
+- Evitar los tokens que se envían por SMS/mensaje de texto al teléfono, mejor utilizar tokens que cambian cada minuto y que son generados por una app
 - Si es posible, almacene el código QR/código de configuración en el gestor de contraseñas para no quedar bloqueado de los servicios si se pierde el teléfono móvil
 
 ---
@@ -220,7 +220,7 @@ Versión 1.4
 
 - Los piratas informáticos pueden configurar fácilmente su propio Wi-Fi con el mismo nombre que el original (por ejemplo, Wi-Fi de la biblioteca o del tren)
   - evite las Wi-Fis públicas no cifradas
-  - utilice sólo Wi-Fi encriptado y/o VPN en su lugar
+  - utilice sólo Wi-Fi encriptado y/o VPN
   - Utilizar preferentemente conexiones por cable en lugar de Wi-Fi
 
 ---
@@ -230,60 +230,60 @@ Versión 1.4
 - Las VPN no hacen que una conexión sea "más segura", ya que hoy en día la mayoría de las conexiones ya están cifradas mediante SSL/TLS
 - La VPN es útil 
   - si quieres ocultar a tu proveedor de Internet qué sitios visitas
-  - si quieres ocultar a una página web de qué país vienes (y, por ejemplo, quieres activar contenidos que no estarían disponibles sin VPN)
+  - si quieres ocultar a una página web de qué país vienes (y si por ejemplo quieres activar contenidos que no estarían disponibles sin VPN)
 
 ---
 
-- Los proveedores de VPN comerciales prometen encriptar los datos del usuario y, por tanto, no poder acceder a ellos ni desencriptarlos, aunque esto es difícil de verificar
-- Evite los proveedores de VPN "gratuitos
+- Los proveedores de VPN comerciales prometen encriptar los datos del usuario y, por lo tanto, no poder acceder a ellos ni desencriptarlos, aunque esto es difícil de verificar
+- Evite los proveedores de VPN "gratuitos"
 
 ---
 
 # Protección de datos
 
-- Piensa en qué tipo de datos tienes en tu trabajo o en tu lugar privado y considera cómo los proteges si se pierden, te los roban o están en manos de alguien poco amistoso
-- Ordenadores: Aunque es necesario iniciar sesión para usarlo, los datos pueden ser leídos desde él si su disco está conectado a otro ordenador o si se conecta a él una memoria USB con un segundo sistema operativo.
+- Piensa cuales tipo de datos tiene en tu trabajo o en su lugar privado y considere cómo protegerlos si se pierden, se los roban o si están en manos de alguien extraño
+- Ordenadores: Aunque es necesario iniciar sesión para usarlos, los datos pueden ser leídos aún si su disco está conectado a otro ordenador o si se conecta a él una memoria USB con un segundo sistema operativo.
 - Mejor encriptarlos con herramientas como BitLocker, VeraCrypt en Windows, FileVault en Mac y LUKS en Linux
 - Lo mismo ocurre con los discos duros y las memorias USB: Una vez conectados a un ordenador, los datos pueden ser leídos desde ellos si no están encriptados
 
 ---
 
 # Almacenamiento en la nube/en línea:
-- Muchos proveedores de la nube encriptan tus datos en sus servidores - pero tienen la llave maestra y por lo tanto pueden encriptar y leer tus datos
+- Muchos proveedores de la nube encriptan sus datos en sus servidores - pero tienen la llave maestra y por lo tanto pueden encriptar y leer sus datos
 - Es mejor buscar proveedores que ofrezcan almacenamiento de conocimiento cero
   - Esto significa que los datos se encriptan localmente en su máquina antes de ser transmitidos a un proveedor de la nube
   - Nadie más que usted puede leer los datos
-- También puedes cifrar los archivos localmente con herramientas como Cryptomater y BoxCryptor antes de enviarlos, por ejemplo, a Dropbox.
+- También puede cifrar los archivos localmente con herramientas como Cryptomater y BoxCryptor antes de enviarlos, por ejemplo, a Dropbox
 
 ---
 
 # Copias de seguridad
 
-- Haz copias de seguridad periódicas de los datos importantes, por ejemplo, utilizando un NAS o una memoria USB (cifrada)
+- Hacer copias de seguridad periódicas de los datos importantes, por ejemplo, utilizando un NAS o una memoria USB (cifrada)
 - Mantener varias versiones, por ejemplo, según el esquema abuelo, padre, hijo
-- Sólo las copias de seguridad que no estén conectadas a un ordenador o a la red (copias de seguridad sin conexión) protegen contra el cifrado por troyanos o ataques similares
+- Sólo las copias de seguridad que no estén conectadas a un ordenador o a la red (copias de seguridad sin conexión) protegan contra el cifrado por troyanos o ataques similares
 - Practicar regularmente la restauración de datos para estar preparado en caso de emergencia
 
 ---
 
 # Información general
 
-- Nunca puedes estar 100% "seguro" de los ataques, sólo puedes gestionar y mitigar los riesgos a los que te enfrentas
-- Revisa regularmente si lo que has estado haciendo ayer sigue siendo útil y seguro hoy y mañana
+- Nunca puede estar 100% "seguro" de los ataques, sólo puede gestionar y mitigar los riesgos a los que se enfrenta uno
+- Revisar regularmente si lo que se ha estado haciendo ayer sigue siendo útil y seguro hoy y mañana
 
 ---
 
-- Con los productos que puedes utilizar de forma gratuita, a menudo tú mismo eres el producto
-  - Los proveedores utilizan los datos de los clientes y los venden a socios publicitarios
+- Con los productos que se pueden utilizar de forma gratuita, a menudo el usuario mismo es el producto
+  - Los proveedores utilizan los datos de los clientes y los venden a otras compañías
   - El freeware puede ser un programa espía que envía información sensible de su ordenador a los servidores del desarrollador
   - A veces es mejor pagar por un producto y así limitar la recogida de datos
-- Instale sólo el software necesario y descárguelo únicamente de fuentes fiables
+- Instale sólo el software necesario y descárguelo únicamente de fuentes confiables
 
 ---
 
 - Mantenga siempre actualizado el sistema operativo y el software
 - Mantenga actualizado el antivirus
-- Ten en cuenta que las suites que prometen hacer "todo" lo relacionado con la seguridad por ti tienen sus límites
-- No conecte al ordenador memorias USB desconocidas que haya encontrado, por ejemplo, en el aparcamiento
+- Tenga en cuenta que las suites que prometen hacer "todo" lo relacionado con la seguridad por el usuario tienen sus límites
+- No conecte al ordenador memorias USB desconocidas que haya encontrado, por ejemplo, en el estacionamiento
   - Los programas pueden iniciarse de forma independiente, sin que se note y sin que el usuario actúe
-  - Los atacantes pueden utilizar estos métodos específicamente para penetrar en una red
+  - Los atacantes pueden utilizar estos métodos específicamente para penetrar (entrar) una red
