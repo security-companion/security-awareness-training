@@ -13,7 +13,7 @@ description: By https://security-companion.net
 
 Erstellt von https://security-companion.net/
 
-Version 1.3
+Version 1.4
 
 ---
 
@@ -33,6 +33,7 @@ Version 1.3
 - Sicherheit im Internet
 - Passwörter
 - 2-Faktor Authentifizierung
+- WiFi / VPN
 - Backups
 - Allgemeine Hinweise
 - Weiterführende Informationen
@@ -57,6 +58,14 @@ Version 1.3
 - Finanzberichte
 - in der Organisation verwendete Hardware und Software
 - etc.
+
+
+---
+
+- Sozialversicherungsnummer
+- Geburtstag, Geburtsort, Name der Mutter (wird oft verwendet um Passwörter wiederherzustellen)
+- Emailadresse
+- usw.
 
 ---
 
@@ -126,6 +135,23 @@ Version 1.3
 
 ---
 
+# E-Mail
+
+- Viele E-Mail Programme zeigen nur den Namen des Absenders und nicht dessen komplette E-Mail Adresse an
+- Angreifer verändern E-Mails si, dass sie legitim aussehen obwohl sie ein Fake sind (Forged E-Mails)
+- Überprüfen der Domain: Nur service@paypal.com ist legitim, kundenservicepaypal@gmail.com hingegen nicht
+  - Die zweite E-Mail Adresse wird nicht durch Mail-Server und Spamfilter ausgefiltert und wird deswegen gerne von Angreifern verwendet
+
+---
+
+- Nicht dieselbe E-Mail Adresse beruflich und privat verwenden
+- Eigene E-Mail Adresse für Online-Shopping verwenden
+  - Viele Shopping-Seiten fügen E-Mail Adressen unerlaubterweise zu Mailinglisten hinzu
+  - Wenn der Account nach einer gewisen Zeit zu viel Spam erhält kann einfach ein neuer erstellt werden
+  - -> Persönlicher E-Mail Account erhält deutlich weniger unerwünschte E-Mails
+
+---
+
 # Passwörter
 
 - Angreifer haben [lange Passwortlisten](https://github.com/danielmiessler/SecLists/tree/master/Passwords/Common-Credentials) mit Millionen von Passwörtern zur Verfügung. Diese probieren sie auf Login-Seiten aus bis sie Erfolg haben
@@ -180,7 +206,11 @@ Version 1.3
 - Logins zusätzlich zur Benutzernamen/Passwort Kombination mit einem weiteren zweiten Faktor absichern
   - Beispiel: zeitlich ablaufende Ziffernfolge auf dem Handy (Token)
   - Nur mit diesem ist ein Login möglich, schützt effektiv vor Missbrauch des Zugangs
-- Wo möglich immer aktivieren!
+- Wo möglich aktivieren
+
+---
+
+- Tokens die per SMS verschickt werden vermeiden, stattdessen Tokens die im Handy generiert und sich minütlich ändern vorziehen
 - Eventuell QR-Code/Einrichtcode im Passwortmanager hinterlegen um bei Verlust des Handys nicht aus Diensten ausgesperrt zu werden
 
 ---
@@ -190,15 +220,42 @@ Version 1.3
 - Hacker können leicht ein eigenes W-LAN aufspannen das gleich heißt wie das ursprüngliche (z.B. Bücherei- oder Zug-WLAN)
   - Öffentliche, unverschlüsselte W-LAN meiden
   - stattdessen nur verschlüsselte W-LANs und/oder VPN verwenden
+- Wo möglich Kabel- statt W-LAN-Verbindungen verwenden
+
+---
+
+# VPN
+
+- VPNs machen eine Verbindung nicht automatisch sicherer da heutzutage eh schon viele Verbindungen schon durch SSL/TLS verschlüsselt sind
+- VPN ist hilfreich wenn
+  - vor dem Internetprovider/Hoster versteckt werden soll welche Seiten man besucht
+  - Vor dem Betreiber einer Webseite versteckt werden soll aus welchem Land man kommt (und somit Inhalte frei schalten möchte die sonst nicht verfügbar wären)
+
+---
+
 - Kommerzielle VPN-Anbieter versprechen zwar, die Benutzer-Daten zu verschlüsseln und deswegen nicht auf sie zugreifen zu können. Dies zu überprüfen ist aber schwierig
+- Kostenlose VPN-Anbieter meiden
 
 ---
 
 # Datenschutz
 
-- bei Produkten die man kostenlos nutzen kann ist man oft selbst das Produkt
-  - Anbieter nutzen Kundendaten und verkaufen diese an Werbepartner weiter
-  - Manchmal ist es besser, für ein Produkt zu zahlen und so Datensammelei einzudämmen
+- Regelmäßig darüber nachdenken welche Datentypen man bei der Arbeit und privat nutzt und wie man diese schützen kann wenn sie verloren gehen bzw. gestohlen werden und sich in den Händen von jemandem befinden der mir nicht freundlich gesinnt ist
+- Computer: Obwohl man sich einloggen muss um sie verwenden zu können kann man die Daten auslesen wenn man die Festplatte in einen anderen Computer einsteckt oder einen USB-Stick mit einem alternativen Betriebssystem einsteckt
+
+---
+
+- Deshalb Computer mit Tools wie Bitlocker/VeraCrypt (Windows), FileVault (Mac) oder LUKS (Linux) verschlüsseln
+- Das gleiche gilt für externe Festplatten und USB-Sticks: Sobald sie an einen Computer angeschlossen werden kann man ihre Daten auslesen wenn sie nicht verschlüsselt sind
+
+---
+
+# Cloud-based/online Storage
+- Viele Anbieter von Cloudspeicher verschlüsseln Daten auf deren Servern - allerdings besitzen sie den Master-Schlüssel um die Daten entschlüsseln und lesen zu können
+- Stattdessen besser Anbieter suchen die Zero-knowledge unterstützen
+  - Dies bedeutet dass die Daten lokal auf dem Rechner verschlüsselt werden bevor sie ins Internet übermittelt werden
+  - Niemand außer Ihnen selbst kann sonst die Daten lesen
+- Alternativ Daten lokal mit Tools wie Cryptomater oder BoxCryptor verschlüsseln bevor man sie an z.B. Dropbox versendet
 
 ---
 
@@ -206,15 +263,29 @@ Version 1.3
 
 - Regelmäßig Backups von wichtigen Daten erstellen, beispielsweise über NAS oder (verschlüsselten) USB-Stick
 - Mehrere Versionsstände vorhalten, z.B. nach Schema Großvater, Vater, Kind
-- Nur Backups, die nicht mit einem Computer oder Netzwerk verbunden sind (Offline-Backps) schützen vor Verschlüsselung durch Trojaner o.ä.
+- Nur Backups, die nicht mit einem Computer oder Netzwerk verbunden sind (Offline-Backups) schützen vor Verschlüsselung durch Trojaner o.ä.
 - Regelmäßig Wiederherstellen der Daten üben um für den Ernstfall vorbereitet zu sein
 
 ---
 
 # Allgemein
 
+- Es gibt keinen 100% Schutz vor Angriffen. Es ist nur möglich, Maßnahmen zu ergreifen um das Risiko möglichst gering zu halten
+- Regelmäßig überprüfen ob das was man gestern tat auch heute und morgen noch sinnvoll und sicher ist
+
+---
+
+- bei Produkten die man kostenlos nutzen kann ist man oft selbst das Produkt
+  - Anbieter nutzen Kundendaten und verkaufen diese an Werbepartner weiter
+  - Freeware kann sich als Spyware entpuppen die sensible Benutzerinformationen an die Entwickler des Programmes verschickt
+  - Manchmal ist es besser, für ein Produkt zu zahlen und so Datensammelei einzudämmen
+- Nur notwendige Software installieren und diese nur aus vertrauenswürdigen Quellen installieren
+
+---
+
 - Immer Betriebssystem und verwendete Software aktuell halten
 - Virenscanner aktuell halten
+- Sich dessen bewusst sein, das Software-Suiten die versprechen gegen "alle" Angriffsmöglichkeiten zu schützen auch ihre Grenzen haben
 - Keine unbekannten USB-Sticks die man beispielsweise auf dem Parkplatz gefunden hat an Rechner anschließen
   - Programme können selbstständig, unbemerkt und ohne Nutzeraktion starten
   - Angreifer können diese Methoden gezielt nutzen um in ein Netzwerk einzudringen
