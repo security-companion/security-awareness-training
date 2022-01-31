@@ -13,7 +13,7 @@ description: By https://security-companion.net
 
 Creado por https://security-companion.net/
 
-Versión 1.4
+Versión 1.5
 
 ---
 
@@ -263,7 +263,7 @@ Versión 1.4
 - Es mejor buscar proveedores que ofrezcan almacenamiento de conocimiento cero
   - Esto significa que los datos se encriptan localmente en su máquina antes de ser transmitidos a un proveedor de la nube
   - Nadie más que usted puede leer los datos
-- También puede cifrar los archivos localmente con programas como Cryptomater y BoxCryptor antes de enviarlos p. ej. a Dropbox
+- También puede cifrar los archivos localmente con programas como Cryptomator y BoxCryptor antes de enviarlos p. ej. a Dropbox
 
 ---
 

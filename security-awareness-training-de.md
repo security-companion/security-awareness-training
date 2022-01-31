@@ -13,7 +13,7 @@ description: By https://security-companion.net
 
 Erstellt von https://security-companion.net/
 
-Version 1.4
+Version 1.5
 
 ---
 
@@ -255,7 +255,7 @@ Version 1.4
 - Stattdessen besser Anbieter suchen die Zero-knowledge unterstützen
   - Dies bedeutet dass die Daten lokal auf dem Rechner verschlüsselt werden bevor sie ins Internet übermittelt werden
   - Niemand außer Ihnen selbst kann sonst die Daten lesen
-- Alternativ Daten lokal mit Tools wie Cryptomater oder BoxCryptor verschlüsseln bevor man sie an z.B. Dropbox versendet
+- Alternativ Daten lokal mit Tools wie Cryptomator oder BoxCryptor verschlüsseln bevor man sie an z.B. Dropbox versendet
 
 ---
 
