@@ -13,7 +13,7 @@ description: By https://security-companion.net
 
 Creado por https://security-companion.net/
 
-Versión 1.5
+Versión 1.6
 
 ---
 
@@ -68,14 +68,15 @@ Versión 1.5
 
 # Ingeniería social
 
-- Definición: Métodos que los atacantes utilizan para obtener información sensible de los empleados, a menudo utilizando presión y tratando de provocar la simpatía
+- Definición: Métodos que los atacantes utilizan para obtener confianza y así recibir información sensible de los empleados/usuarios, a menudo utilizando presión y tratando de provocar la simpatía (Phishing)
 - Especialmente los recepcionistas deben tener cuidado al recibir llamadas o recibir a un supuesto "técnico de reparación de impresoras" en el campus
 
 ---
 
 - Ejemplos:
   - si no se realiza inmediatamente una transferencia bancaria ordenada por el supuesto jefe, se amenaza con elevados costes de recordatorio
-  - un atacante se hace pasar por un nuevo colega y pide durante una llamada telefónica con un empleado que le pase contraseñas 
+  - un atacante se hace pasar por un nuevo colega y pide durante una llamada telefónica con un empleado que le pase contraseñas
+  - un atacante manda un correo electrónico pidiendo al recipiente de contactar urgentemente al contacto técnico de una compañía. Pero el teléfono proporcionado en el correo no es el de la compañía sino uno que es controlado por el atacante (Callback Phishing)
 
 ---
 

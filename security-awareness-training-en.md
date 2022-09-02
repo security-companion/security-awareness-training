@@ -13,7 +13,7 @@ description: By https://security-companion.net
 
 Created by https://security-companion.net/
 
-Version 1.5
+Version 1.6
 
 ---
 
@@ -68,7 +68,7 @@ Version 1.5
 
 # Social engineering
 
-- Definition: Methods that attackers use to elicit sensitive information from employees, often using pressure and trying to elicit sympathy
+- Definition: Methods that attackers use to elicit confidence and by this get sensitive information from employees/users, often using pressure and trying to elicit sympathy (Phishing)
 - Especially receptionists need to be careful when receiving calls or welcoming a so called "printer repair technician" on the campus
 - Examples:
   - if a bank transfer ordered by the supposed boss is not made immediately, high reminder costs are threatened
@@ -76,8 +76,9 @@ Version 1.5
 
 ---
 - further examples:
-  - Attackers pretend to be technical support, e.g. from Microsoft, and claim that they need to solve a problem on a computer
+  - attackers pretend to be technical support, e.g. from Microsoft, and claim that they need to solve a problem on a computer
   - attacker pretends to be a grandson and claims to be in (financial) need
+  - attacker send an email asking users to urgently contact customer support under the mentioned number (number is not the one of the mentioned company but  one controlled by the attacker) - Callback Phishing
 
 ---
 

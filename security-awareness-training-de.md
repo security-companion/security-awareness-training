@@ -13,7 +13,7 @@ description: By https://security-companion.net
 
 Erstellt von https://security-companion.net/
 
-Version 1.5
+Version 1.6
 
 ---
 
@@ -71,7 +71,7 @@ Version 1.5
 
 # Social Engineering
 
-- Definition: Methoden, die Angreifer nutzen um Mitarbeitern sensible Informationen zu entlocken, oft unter Einsatz von Druck und dem Versuch, Mitleid zu erregen
+- Definition: Methoden, die Angreifer nutzen um Vertrauen zu Personen/Mitarbeitern aufzubauen und ihnen so sensible Informationen zu entlocken, oft unter Einsatz von Druck und dem Versuch, Mitleid zu erregen (Phishing)
 - Beispiele:
   - wenn nicht sofort die vom vermeintlichen Chef angeordnete Überweisung erfolgt drohen hohe Mahungskosten
   - Angreifer gibt sich als neuer Kollege aus und bittet um Mithilfe in Form der telefonischen Übermittlung von Passwörtern
@@ -80,6 +80,7 @@ Version 1.5
 - weitere Beispiele:
   - Angreifer gibt sich als technischer Support von z.B. Microsoft aus und gibt an, ein Problem auf dem Computer lösen zu müssen
   - Angreifer gibt sich als Enkel aus und gibt vor, in großer Not zu sein und (finanzielle) Unterstützung zu benötigen
+  - Angreifer senden eine E-Mail und bitten um einen dringenden Rückruf beim Kundendienst eines genannten Unternehmens. Die Telefonnummer ist allerdings nicht die tatsächliche sondern eine von den Angreifern kontrollierte (Callback Phishing)
 
 ---
 
@@ -138,7 +139,7 @@ Version 1.5
 # E-Mail
 
 - Viele E-Mail Programme zeigen nur den Namen des Absenders und nicht dessen komplette E-Mail Adresse an
-- Angreifer verändern E-Mails si, dass sie legitim aussehen obwohl sie ein Fake sind (Forged E-Mails)
+- Angreifer verändern E-Mails so, dass sie legitim aussehen obwohl sie ein Fake sind (Forged E-Mails)
 - Überprüfen der Domain: Nur service@paypal.com ist legitim, kundenservicepaypal@gmail.com hingegen nicht
   - Die zweite E-Mail Adresse wird nicht durch Mail-Server und Spamfilter ausgefiltert und wird deswegen gerne von Angreifern verwendet
 
