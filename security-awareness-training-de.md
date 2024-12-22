@@ -13,7 +13,7 @@ description: By https://security-companion.net
 Man kann sich nur gegen die Gefahren schützen die man kennt
 Erstellt von https://security-companion.net/
 
-Version 1.7
+Version 1.8
 
 ---
 
@@ -28,7 +28,6 @@ Version 1.7
 
 # Übersicht
 
-- Motivation
 - Einführung
 - Social Engineering
 - Sicherheit im Internet
@@ -36,12 +35,12 @@ Version 1.7
 - Passwörter
 - 2-Faktor Authentifizierung
 - WiFi / VPN
+- Physische Sicherheit
 - Backups
 - Allgemeine Hinweise
 - Weiterführende Informationen
 
 ---
-
 
 # Motivation
 
@@ -62,6 +61,7 @@ Sobald eine der 3 Säulen durchbrochen ist besteht die Gefahr eines großen Scha
 
 # Schützenswerte Daten
 
+- Regelmäßig darüber nachdenken welche Datentypen man bei der Arbeit und privat nutzt und wie man diese schützen kann wenn sie verloren gehen bzw. gestohlen werden und sich in den Händen von jemandem befinden der mir nicht freundlich gesinnt ist
 - Adressen von externen oder internen Kontakten
 - Kontoverbindungen, Gehaltsabrechnungen
 - Benutzernamen/Passwörter
@@ -128,7 +128,7 @@ Sobald eine der 3 Säulen durchbrochen ist besteht die Gefahr eines großen Scha
 
 - Auf Verkaufsplattformen immer nur die offiziellen Nachrichtenkanäle verwenden
   - Falls sich ein potenzieller Käufer per Messenger meldet immer besonders vorsichtig und mißtrauisch sein
-  - Eine häufige Masche ist, vorzugeben, einen Artikel kaufen zu wollen und zusätzlich noch Gutscheinkarten die der Verkäufer zuätzlich im Namen des Käufers erwerben soll
+  - Eine häufige Masche ist, vorzugeben, einen Artikel kaufen zu wollen und zusätzlich noch Gutscheinkarten die der Verkäufer zusätzlich im Namen des Käufers erwerben soll
   - Nicht unter (zeitlichen) Druck setzen lassen sondern Kontakt abbrechen
 
 
@@ -200,7 +200,7 @@ Sobald eine der 3 Säulen durchbrochen ist besteht die Gefahr eines großen Scha
   - Name des Haustieres oder der Kinder, zweiter Vorname
   - Geburtstag, Adresse
   - Wörter die im Zusammenhang mit dem Arbeitgeber stehen (Gebäudename etc.)
-  - Wörterbuchwörer
+  - Wörterbuchwörter
   - Aktuelle Jahreszahl
 
 ---
@@ -218,7 +218,7 @@ Sobald eine der 3 Säulen durchbrochen ist besteht die Gefahr eines großen Scha
   - Passwörter werden verschlüsselt gespeichert und sind durch ein Master-Passwort gesichert
 - Synchronisierung zwischen mehreren Geräten möglich
 - Bieten oft die Möglichkeit, zufällig generierte Passwörter zu erzeugen
-- Vorsicht vor Passwortmanagern in der Cloud, wenn der Anbieter kompromitiert wird sind möglicherweise die eigenen sensiblen Daten in falschen Händen
+- Vorsicht vor Passwortmanagern in der Cloud, wenn der Anbieter kompromittiert wird sind möglicherweise die eigenen sensiblen Daten in falschen Händen
 
 ---
 
@@ -276,18 +276,6 @@ Sobald eine der 3 Säulen durchbrochen ist besteht die Gefahr eines großen Scha
 
 ---
 
-# Datenschutz
-
-- Regelmäßig darüber nachdenken welche Datentypen man bei der Arbeit und privat nutzt und wie man diese schützen kann wenn sie verloren gehen bzw. gestohlen werden und sich in den Händen von jemandem befinden der mir nicht freundlich gesinnt ist
-- Computer: Obwohl man sich einloggen muss um sie verwenden zu können kann man die Daten auslesen wenn man die Festplatte in einen anderen Computer einsteckt oder einen USB-Stick mit einem alternativen Betriebssystem einsteckt
-
----
-
-- Deshalb Computer mit Tools wie Bitlocker/VeraCrypt (Windows), FileVault (Mac) oder LUKS (Linux) verschlüsseln
-- Das gleiche gilt für externe Festplatten und USB-Sticks: Sobald sie an einen Computer angeschlossen werden kann man ihre Daten auslesen wenn sie nicht verschlüsselt sind
-
----
-
 # Cloud-based/online Storage
 - Viele Anbieter von Cloudspeicher verschlüsseln Daten auf deren Servern - allerdings besitzen sie den Master-Schlüssel um die Daten entschlüsseln und lesen zu können
 - Stattdessen besser Anbieter suchen die Zero-knowledge unterstützen
@@ -305,6 +293,13 @@ Sobald eine der 3 Säulen durchbrochen ist besteht die Gefahr eines großen Scha
 - Keine unbekannten USB-Sticks die man beispielsweise auf dem Parkplatz gefunden hat an Rechner anschließen
   - Programme können selbstständig, unbemerkt und ohne Nutzeraktion starten
   - Angreifer können diese Methoden gezielt nutzen um in ein Netzwerk einzudringen
+- Sensible Informationen nur an sicheren Orten eingeben (Shoulder Surfing)
+
+---
+
+- Computer: Obwohl man sich einloggen muss um sie verwenden zu können kann man die Daten auslesen wenn man die Festplatte in einen anderen Computer einsteckt oder einen USB-Stick mit einem alternativen Betriebssystem einsteckt
+- Deshalb Computer mit Tools wie Bitlocker/VeraCrypt (Windows), FileVault (Mac) oder LUKS (Linux) verschlüsseln
+- Das gleiche gilt für externe Festplatten und USB-Sticks: Sobald sie an einen Computer angeschlossen werden kann man ihre Daten auslesen wenn sie nicht verschlüsselt sind
 
 ---
 
